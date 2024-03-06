@@ -1,0 +1,40 @@
+/* body{
+  background: url('../../public/photo-1501959181532-7d2a3c064642.avif')rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+} */
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background: transparent;
+}
+
+.nav_menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22.5px;
+  flex-grow: 1;
+  gap: 3rem;
+  justify-content: center;
+  
+}
+
+@media(max-width: 991px){
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.hover-btn {
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.hover-btn:hover {
+  background-color: black; /* Change to desired hover color */
+}
