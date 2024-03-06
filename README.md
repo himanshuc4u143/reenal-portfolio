@@ -4,8 +4,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To run it in client machine, please follow the following steps:
+
+the commands:
+
+1. Update the package index:
+
+### `sudo apt update`
+
+2. Install Node.js and npm:
+
+### `sudo apt install nodejs npm`
+
+3. Verify that Node.js and npm are installed by checking their versions:
+
+### `node -v`
+
+### `npm -v`
+
 In the project directory, you can run:
 
+4. Install dependencies:
+### `npm install`
+
+5. Start development server:
 ### `npm start`
 
 Runs the app in the development mode.\
