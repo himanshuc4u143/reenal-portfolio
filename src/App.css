@@ -1,0 +1,90 @@
+/* Existing styles from App.css */
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  /* background-image: url('your-background-image-url.jpg'); Add your background image URL */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6); */
+}
+
+
+.content {
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+/* Update App-header to position the navbar at the top */
+.App-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+/* Bootstrap classes for styling */
+/* Bootstrap classes for styling */
+.header-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  text-align: left; /* Align text to the left */
+}
+
+.header-container h2 {
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.header-container h1 {
+  font-size: 4rem; /* Adjust font size as needed */
+}
+
+.header-container .black-bold {
+  color: black; /* Set text color to black */
+  font-weight: bold; /* Set font weight to bold */
+}
+
+.header-container .red-text {
+  color: red; /* Set text color to red */
+}
+
+.par-content {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  text-align: left; /* Align text to the left */
+}
+
+/* Custom styles for gradient effect */
+.gradient-text {
+  background: linear-gradient(45deg, #61dafb,#ff0000, #00ff00,#00ff00,#61dafb); /* Adjust colors and angle as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: calc(100vh - 10vh); /* Adjust the height as per your requirement */
+}
+
+
+
