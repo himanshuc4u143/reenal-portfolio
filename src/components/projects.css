@@ -1,0 +1,81 @@
+/* projects.css */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 20rem; /* Increase the width of each card */
+    height: 35rem; /* Increase the height of each card */
+    margin-bottom: 40px; /* Adjust spacing between cards */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-25px) rotate(2deg);;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.4);
+   
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #61dafb, #ff0000, #00ff00, #00ff00, #61dafb);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card:hover:before {
+    opacity: 0.3;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  
+  .empty-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text horizontally */
+    padding: 20px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin below the content */
+  }

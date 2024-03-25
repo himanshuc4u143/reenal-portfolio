@@ -1,40 +1,67 @@
-/* body{
-  background: url('../../public/photo-1501959181532-7d2a3c064642.avif')rgba(0, 0, 0, 0.3);
-  background-blend-mode: multiply;
-  background-position: center;
-  background-size: cover;
-  background-repeat:no-repeat;
-} */
-.nav{
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   height: 10vh;
-  background: transparent;
+  background-color: transparent;
+  color: grey;
+  /* margin-left: -250px; */
 }
 
-.nav_menu{
+.nav:hover {
+  color: blue;
+}
+
+.nav_menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 22.5px;
+  /* font-size: 22.5px; */
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
   flex-grow: 1;
   gap: 3rem;
   justify-content: center;
-  
-}
-
-@media(max-width: 991px){
-  .sidebar{
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-  }
 }
 
 .hover-btn {
-  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  transition: background-color 0.3s ease;
 }
 
 .hover-btn:hover {
-  background-color: black; /* Change to desired hover color */
+  background-color: black;
+}
+
+.App-logo {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  pointer-events: none;
+  transition: filter 0.3s ease; /* Transition for hover effect */
+}
+
+.navbar-brand {
+  color: black;
+  /* margin-right: -800px; */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: darkblue;
+}
+
+.navbar-brand:hover .App-logo {
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg);
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: darkblue;
 }
