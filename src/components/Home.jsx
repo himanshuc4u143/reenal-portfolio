@@ -15,7 +15,7 @@ function Home() {
   return (
     <div id='home' className="App" style={{backgroundImage: `url(${reenalBgImg})`}}>
       <div className="content">
-        <h2 className="gradient-text header-container">Data Scientists </h2>
+        <h2 className="gradient-text header-container">Data Scientist | Mentor | Speaker | Content Creation </h2>
         <header className="header-container">
           <h1 className="black-bold">Hello, I’m <span className="red-text">Reenal.</span></h1>
         </header>
