@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-import logo from '../hlogo.png';
+//import logo from '../hlogo.png';
 
 function Navbar() {
   
@@ -18,19 +18,19 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav_menu">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">About</a>
+              <a className="nav-link" aria-current="page" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pages</a>
+              <a className="nav-link" href="#pages">Pages</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blogs</a>
+              <a className="nav-link" href="#blogs">Blogs</a>
             </li>
           </ul>
         </div>

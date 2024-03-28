@@ -5,9 +5,12 @@ import Navbar from './components/navbar';
 //import reenalBgImg1 from './images/IMG-20240324-WA0106.jpg';
 import Home from './components/Home';
 import Projects from './components/Projects';
-import About1 from './components/About1';
+import About from './components/About';
 import EnquiryForm from './components/EnquiryForm';
 import HorizontalChart from './components/BarChart';
+import Footer from './components/Footer';
+import BlogsPage from './components/BlogsPage';
+import RecommendationsPage from './components/RecommendationsPage';
 
 function App() {
   return (
@@ -15,13 +18,16 @@ function App() {
       <div className='nav'><Navbar /></div>
       <div >
         <Home />
-        <About1/>
+        <About/>
         <HorizontalChart/>
         <div className="content"> {/* Add a container for the Projects section */}
         <Projects />
+        <BlogsPage/>
+        <RecommendationsPage/>
         </div>
         <EnquiryForm/>
       </div>
+      <Footer/>
     </div>
   );
 }

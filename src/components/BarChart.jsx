@@ -1,96 +1,50 @@
-import { Bar } from 'react-chartjs-2';
-import { useEffect, useState } from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import React from 'react';
+//import './barChart.css';
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
-
-const options = {
-  indexAxis: 'y',
-  elements: {
-    bar: {
-      borderWidth: 1,
-      barThickness: 1,
-    },
-  },
-  responsive: true,
-  scales: {
-    x: {
-      display: false, // Hide the x-axis
-    },
-    y: {
-      display: true, // Hide the y-axis
-      ticks: {
-        font: {
-          weight: 'bold', // Set bold font weight for all labels
-        },
-      }
-    },
-  },
-//   layout: {
-//     padding: {
-//         left: 50
-//     }
-//   }
-//   plugins: {
-//     legend: {
-//       position: 'right',
-//     },
-//     title: {
-//       display: true,
-//       text: 'Chart.js Horizontal Bar Chart',
-//     },
-//   },
-};
-
-
-
-const HorizontalChart = () => {
-  const [data, setData] = useState({
-    labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    datasets: [
-      {
-        label: 'Dataset 1',
-        data: [8,9,8,9,8,9,8],
-        borderColor: 'red',
-        backgroundColor: 'red',
-        stack: 1
-      },
-      {
-        label: 'Dataset 2',
-        data: [2, 1, 2, 1, 2, 1, 2],
-        borderColor: 'rgb(54, 162, 235)',
-        backgroundColor: 'black',
-        stack: 1
-      },
-    ],
-  });
-
-  useEffect(() => {
-    // If you need to fetch data dynamically, you can put your fetch logic here
-    // and update the state using setData
-  }, []);
-
+function ProgressBar({ value }) {
   return (
-    <div style={{ display: 'flex'}}>
-      <Bar data={data} options={{
-        ...options,
-        elements: {
-          ...options.elements,
-          bar: {
-            ...options.elements.bar,
-            barPercentage: 0.5, // Adjust bar width as necessary (0.5 for 50% width)
-          },
-        },
-      }} />
+    <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow={value} aria-valuemin="0" aria-valuemax="100">
+      <div className="progress-bar" style={{ width: `${value}%`, height: '20px' }}></div>
     </div>
   );
-};
+}
 
-export default HorizontalChart;
+function BarChart() {
+  return (
+    <div style={{ width: '100%', margin: '0 auto', justifyContent: 'center' }} id='blogs'>
+      <div style={{ border: '1px solid black', textAlign: 'center' }}>
+        <table style={{width: '80%'}}>
+          <thead>
+            <tr>
+              <th colSpan="2"><h1>TechStack</h1></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Java</td>
+              <td style={{ width: '80%' }}><ProgressBar value={0} /></td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td style={{ width: '80%' }}><ProgressBar value={25} /></td>
+            </tr>
+            <tr>
+              <td>MySQL</td>
+              <td style={{ width: '80%' }}><ProgressBar value={50} /></td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td style={{ width: '80%' }}><ProgressBar value={75} /></td>
+            </tr>
+            <tr>
+              <td>JSZ</td>
+              <td style={{ width: '80%' }}><ProgressBar value={100} /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+export default BarChart;

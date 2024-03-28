@@ -19,7 +19,7 @@ function Projects() {
       <div className="row">
         <div className="col">
           <div className="card">
-            <img src={assert} className="card-img-top" alt="..." />
+            <img src={assert} className="card-img-top" alt="Assert" />
             <div className="card-body">
               <h5 className="card-title">Asset <a href="https://www.asset.healthcare/">https://www.asset.healthcare/</a></h5>
               <p className="card-text">To find if child will develop Type 1
