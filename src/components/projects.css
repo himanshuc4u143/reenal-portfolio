@@ -2,6 +2,7 @@
 
 .projects-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -18,9 +19,12 @@
   }
   
   .card:hover {
-    transform: translateY(-25px) rotate(2deg);;
-    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.4);
+    /* transform: translateY(-25px) rotate(2deg);;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.4); */
    
+    transform: translate(0%, 0%) scale(1.1); /* Zoom in effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow for emphasis */
+
   }
   
   .card:before {
@@ -30,7 +34,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #61dafb, #ff0000, #00ff00, #00ff00, #61dafb);
+    /* background: linear-gradient(45deg, #61dafb, #ff0000, #00ff00, #00ff00, #61dafb); */
     opacity: 0;
     transition: opacity 0.3s ease;
   }

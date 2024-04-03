@@ -11,6 +11,9 @@ import HorizontalChart from './components/BarChart';
 import Footer from './components/Footer';
 import BlogsPage from './components/BlogsPage';
 import RecommendationsPage from './components/RecommendationsPage';
+import VideoThumbnailComponent from './components/VideoThumbnailComponent';
+import Books from './components/Books';
+import Hobbies from './components/Hobbies';
 
 function App() {
   return (
@@ -24,6 +27,11 @@ function App() {
         <Projects />
         <BlogsPage/>
         <RecommendationsPage/>
+        <Hobbies/>
+        <Books/>
+        </div>
+        <div>
+          <VideoThumbnailComponent/>
         </div>
         <EnquiryForm/>
       </div>

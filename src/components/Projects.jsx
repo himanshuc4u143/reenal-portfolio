@@ -15,7 +15,7 @@ function Projects() {
         <p className="par-content">
         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
         </p>
-        </div>
+      </div>
       <div className="row">
         <div className="col">
           <div className="card">

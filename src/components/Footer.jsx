@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <MDBFooter className='bg-light text-center text-white'>
+    <MDBFooter className='text-center text-white' style={{backgroundColor: 'blanchedalmond, o.2'}}>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4 d-flex justify-content-center'> {/* Added d-flex justify-content-center */}
           <MDBBtn
@@ -72,7 +72,7 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}>
         Copyright © 2024 by Reenal || all rights reserved
       </div>
     </MDBFooter>

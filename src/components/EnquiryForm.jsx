@@ -3,7 +3,7 @@ import girlImg from '../images/beautiful-european-woman-portrait-worth-office-ba
 import './EnquiryForm.css'
 function EnquiryForm() {
   return (
-    <div className="container text-center" id="contact">
+    <div className="container text-center" id="contact" style={{padding: '100px'}}>
       <div className="row justify-content-center">
         <div className="col-md-5 mb-3">
           <div className="imgCol bg-transparent" style={{height: '600px', width: '500px'}}>
@@ -13,7 +13,7 @@ function EnquiryForm() {
 
         <div className="col-md-6 mb-3">
         
-            <div className="formCol">
+            <div className="formCol" style={{background: 'white', padding: '50px', borderRadius: '10px'}}>
                 <h6 className="gradient-text">Lets Say Hii!!!</h6>
                 <h2>Hire Me.</h2>
                 <h5>

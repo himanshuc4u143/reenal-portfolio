@@ -12,7 +12,7 @@ function ProgressBar({ value }) {
 function BarChart() {
   return (
     <div style={{ width: '100%', margin: '0 auto', justifyContent: 'center' }} id='blogs'>
-      <div style={{ border: '1px solid black', textAlign: 'center' }}>
+      <div style={{textAlign: 'center' }}>
         <table style={{width: '80%'}}>
           <thead>
             <tr>

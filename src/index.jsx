@@ -5,11 +5,33 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+    createBrowserRouter,
+    RouterProvider,
+    Route
+} from 'react-router-dom';
+
+import ErrorPage from './ErrorPage';
+import Projects from './components/Projects';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App/>,
+    errorElement: <ErrorPage/>,
+  },
+  {
+    path: '/projects',
+    element: <Projects/>,
+    errorElement: <ErrorPage/>,
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
