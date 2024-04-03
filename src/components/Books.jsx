@@ -33,7 +33,7 @@ diabetes or not and when.</p>
           </div>
         </div>
         <div className="col">
-        <h5 style={{backgroundColor: 'pink', borderRadius: '10px', textAlign: 'center', maxWidth: '100px', maxHeight: '40px', paddingTop: '10px', paddingBottom: '20px'}}>To Read</h5>
+        <h5 style={{backgroundColor: 'pink', borderRadius: '10px', textAlign: 'center', maxWidth: '100px', maxHeight: '40px', paddingTop: '10px', paddingBottom: '20px'}}>Reading</h5>
           <div className="card" style={{maxHeight: '250px'}}>
             <div className="card-body">
               <h5 className="card-title">Book Name</h5>
@@ -46,7 +46,7 @@ diabetes or not and when.</p>
           </div>
         </div>
         <div className="col">
-        <h5 style={{backgroundColor: 'pink', borderRadius: '10px', textAlign: 'center', maxWidth: '100px', maxHeight: '40px', paddingTop: '10px', paddingBottom: '20px'}}>To Read</h5>
+        <h5 style={{backgroundColor: 'pink', borderRadius: '10px', textAlign: 'center', maxWidth: '200px', maxHeight: '40px', paddingTop: '10px', paddingBottom: '20px'}}>Already Read</h5>
           <div className="card" style={{maxHeight: '250px'}}>
             {/* <img src={assert} className="card-img-top" alt="Assert" /> */}
             <div className="card-body">
