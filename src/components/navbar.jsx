@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 //import logo from '../hlogo.png';
@@ -20,6 +21,11 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#about">About</a>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/projects">About</Link>
+            </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#pages">Pages</a>
             </li>

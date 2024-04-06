@@ -12,7 +12,7 @@ export default function Footer() {
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4 d-flex justify-content-center'> {/* Added d-flex justify-content-center */}
           <MDBBtn
-            floating
+            floating 
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#3b5998' }}
             href='#!'

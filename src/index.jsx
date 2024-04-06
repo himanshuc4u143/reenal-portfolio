@@ -13,6 +13,7 @@ import {
 
 import ErrorPage from './ErrorPage';
 import Projects from './components/Projects';
+import ProjectPage from './ProjectPages/ProjectPage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
     element: <Projects/>,
     errorElement: <ErrorPage/>,
   },
+  {
+    path: '/projects/:id',
+    element: <ProjectPage/>,
+    errorElement: <ErrorPage/>
+  }
 ]);
 
 
