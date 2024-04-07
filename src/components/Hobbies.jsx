@@ -1,15 +1,24 @@
 import React from 'react';
 import hobbieImg from '../images/hobbies.jpg'
+import DefaultLayout from '../Layout/DefaultLayout';
+//import hobbieImg from '../images/background.jpg'
 function Hobbies() {
   return (
-    <div className="card text-bg-light" style={{backgroundImage: {hobbieImg}, minWidth: '100%'}}>
-      <img src={hobbieImg} className="card-img" alt="..." />
-      <div className="card-img-overlay">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small>Last updated 3 mins ago</small></p>
+    <DefaultLayout>
+      <div id='hobbies' className='hobbies-container'>
+        <div className='empty-div'>
+          <h1 className='gradient-text header-cntainer'>Hobbies</h1>
+          <p className='par-content'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autem dolorum ipsa 
+            quam voluptate doloribus id totam. Nam, ab odio.
+          </p>
+        </div>
+        <div className='img-div'>
+        <img src={hobbieImg} className='w-100' alt="" />
+        {/* <h4>Lorem, ipsum dolor.</h4> */}
+        </div>
       </div>
-    </div>
+    </DefaultLayout>
   );
 }
 

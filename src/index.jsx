@@ -14,6 +14,8 @@ import {
 import ErrorPage from './ErrorPage';
 import Projects from './components/Projects';
 import ProjectPage from './ProjectPages/ProjectPage';
+import Books from './components/Books';
+import Hobbies from './components/Hobbies';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,16 @@ const router = createBrowserRouter([
   {
     path: '/projects/:id',
     element: <ProjectPage/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: '/books',
+    element: <Books/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: '/hobbies',
+    element: <Hobbies/>,
     errorElement: <ErrorPage/>
   }
 ]);

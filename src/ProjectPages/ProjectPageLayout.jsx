@@ -24,7 +24,7 @@ const ProjectPageLayout = ({
             >
               {title}
             </h1>
-            <p>One liner description</p>
+            <p>One liner description{oneLinerDescription}</p>
             <div
               style={{
                 padding: "10px",

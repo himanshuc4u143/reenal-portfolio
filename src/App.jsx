@@ -12,7 +12,6 @@ import Footer from './components/Footer';
 import BlogsPage from './components/BlogsPage';
 import RecommendationsPage from './components/RecommendationsPage';
 import VideoThumbnailComponent from './components/VideoThumbnailComponent';
-import Books from './components/Books';
 import Hobbies from './components/Hobbies';
 
 function App() {
@@ -27,8 +26,8 @@ function App() {
         <Projects />
         <BlogsPage/>
         <RecommendationsPage/>
-        <Hobbies/>
-        <Books/>
+        {/* <Hobbies/> */}
+        {/* <Books/> */}
         </div>
         <div>
           <VideoThumbnailComponent/>
