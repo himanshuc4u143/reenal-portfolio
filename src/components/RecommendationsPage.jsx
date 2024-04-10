@@ -29,7 +29,7 @@ const RecommendationsPage = () => {
 
     return(
         <div className="recommendations-page">
-            <h1 className="gradient-text header-container bold" style={{paddingTop: '25px', paddingBottom: '25px'}}>Recommendations Received</h1>
+            <h1 className="gradient-text header-container bold" style={{paddingTop: '25px', paddingBottom: '25px'}}>Testimonials & Recommendations</h1>
             <div className="recommendations-list">  
                 {recommendations.map(recommendation => (
                     <Recommendation 

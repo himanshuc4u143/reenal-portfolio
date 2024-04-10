@@ -38,7 +38,7 @@ import '../App.css';
 import bgImg from '../images/background.jpg';
 import reenalBgImg from '../images/reenal_bgImg.png';
 import reenalCV from '../PDF/Reenal Boddul.pdf';
-import reenalBgImg1 from '../images/IMG-20240324-WA0106_resize.png';
+import reenalBgImg1 from '../images/about_Me.png';
 
 function Home() {
   const handleDownload = () => {};

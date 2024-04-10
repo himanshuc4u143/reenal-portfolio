@@ -37,6 +37,9 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/books">Books</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/blogs">Blogs</Link>
+            </li>
 
             {/* <li className="nav-item">
               <a className="nav-link" href="#pages">Pages</a>

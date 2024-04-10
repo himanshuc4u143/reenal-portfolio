@@ -13,13 +13,15 @@ import BlogsPage from './components/BlogsPage';
 import RecommendationsPage from './components/RecommendationsPage';
 import VideoThumbnailComponent from './components/VideoThumbnailComponent';
 // import Hobbies from './components/Hobbies';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
     <div>
       <div className='nav'><Navbar /></div>
       <div >
-        <Home />
+        <Carousel/>
+        {/* <Home /> */}
         <About/>
         <HorizontalChart/>
         <div className="content"> {/* Add a container for the Projects section */}

@@ -1,6 +1,7 @@
 import React from 'react';
-import girlImg from '../images/beautiful-european-woman-portrait-worth-office-background-smiling-beauty-fashion-style-curly-hair-white-strands-view-134460672.webp';
+// import girlImg from '../images/beautiful-european-woman-portrait-worth-office-background-smiling-beauty-fashion-style-curly-hair-white-strands-view-134460672.webp';
 import './about.css'
+import about_img from '../images/about_Me.png'
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       <div className="row justify-content-center" style={{paddingTop: '100px'}}>
         <div className="col-md-5 mb-3">
           <div className="myCol bg-transparent" style={{height: '600px', width: '500px'}}>
-            {/* <img src={girlImg} alt="Girl" className="img-fluid" style={{height: '600px', width: '500px'}} /> */}
+            <img src={about_img} alt="Girl" className="img-fluid" style={{height: '600px', width: '500px'}} />
           </div>
         </div>
         <div className="col-md-6 mb-3">
@@ -33,9 +34,9 @@ Applications), Pune University, India, 2011.
                       </li>
                     </ul>
                   </td>
-                  <td style={{ padding: '2%', backgroundColor: 'transparent' }}>
+                  {/* <td style={{ padding: '2%', backgroundColor: 'transparent' }}>
                     <h3>CERTIFICATE COURSES</h3>
-                    {/* <p>Sed ut perspiciatis unde <br />omnis iste natus error.</p> */}
+                    <p>Sed ut perspiciatis unde <br />omnis iste natus error.</p>
                     <ul>
                       <li>
                         <a href="https://ineuron.ai/" target="_blank" rel="noopener noreferrer">Deep Learning Master</a>
@@ -48,7 +49,7 @@ Applications), Pune University, India, 2011.
 Pune, India</a>
                       </li>
                     </ul>
-                  </td>
+                  </td> */}
                 </tr>
                 <tr>
                   <td style={{ backgroundColor: 'transparent' }}>
