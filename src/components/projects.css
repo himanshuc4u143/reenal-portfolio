@@ -1,11 +1,11 @@
 /* projects.css */
 
-.projects-container {
+/* .projects-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+  } */
   
   .card {
     width: 20rem; /* Increase the width of each card */

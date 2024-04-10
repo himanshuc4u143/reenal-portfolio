@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import BlogsPage from './components/BlogsPage';
 import RecommendationsPage from './components/RecommendationsPage';
 import VideoThumbnailComponent from './components/VideoThumbnailComponent';
-import Hobbies from './components/Hobbies';
+// import Hobbies from './components/Hobbies';
 
 function App() {
   return (

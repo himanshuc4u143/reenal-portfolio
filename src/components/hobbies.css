@@ -16,12 +16,8 @@
     text-align: center; /* Center text horizontally */
     /*padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin below the content */
-    border: 1px solid black;
-    background-color: aquamarine;
+    /* border: 1px solid black;
+    background-color: aquamarine; */
   }
 
-  .img-div{
-    /* background-image: url('../images/hobbies.jpg'); */
-    border: 5px solid black;
-    text-align: center;
-  }
+

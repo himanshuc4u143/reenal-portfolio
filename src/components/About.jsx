@@ -5,7 +5,7 @@ import './about.css'
 function About() {
   return (
     <div className="container text-center" id='about'>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center" style={{paddingTop: '100px'}}>
         <div className="col-md-5 mb-3">
           <div className="myCol bg-transparent" style={{height: '600px', width: '500px'}}>
             {/* <img src={girlImg} alt="Girl" className="img-fluid" style={{height: '600px', width: '500px'}} /> */}

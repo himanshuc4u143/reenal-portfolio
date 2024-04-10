@@ -25,7 +25,7 @@ const BlogsPage = () => {
 
   return (
     <div className="blogs-page">
-      <h1>Blogs</h1>
+      <h1 className="gradient-text header-container bold" style={{paddingTop: '25px', paddingBottom: '25px'}}>Blogs</h1>
       <div className="blogs-list">  
         {blogs.map(blog => (
           <Blog

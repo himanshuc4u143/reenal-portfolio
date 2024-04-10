@@ -5,6 +5,7 @@ const RecommendationsPage = () => {
     const recommendations = [
         {
             id: 1,
+            // className: ''
             title: 'My First Blog Post',
             date: 'March 1, 2024',
             author: 'Your Name',
@@ -28,7 +29,7 @@ const RecommendationsPage = () => {
 
     return(
         <div className="recommendations-page">
-            <h1>Recommendations Received</h1>
+            <h1 className="gradient-text header-container bold" style={{paddingTop: '25px', paddingBottom: '25px'}}>Recommendations Received</h1>
             <div className="recommendations-list">  
                 {recommendations.map(recommendation => (
                     <Recommendation 
