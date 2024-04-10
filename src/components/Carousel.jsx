@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
-import img1 from '../images/carousel_images/1709050857847.jpg'
+import img1 from '../images/carousel_images/unnamed.jpg'
+
 
 export default function App() {
   return (
