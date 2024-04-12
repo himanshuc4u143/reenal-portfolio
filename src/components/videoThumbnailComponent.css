@@ -3,7 +3,7 @@
 .video-container {
     position: relative;
     width: 600px;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

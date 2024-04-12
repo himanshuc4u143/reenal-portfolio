@@ -1,5 +1,5 @@
 .nav {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -7,9 +7,10 @@
   align-items: flex-start;
   justify-content: space-around;
   height: 10vh;
-  background-color: transparent;
+  background-color: navy;
   color: grey;
   /* margin-left: -250px; */
+  z-index: 2;
 }
 
 .nav:hover {

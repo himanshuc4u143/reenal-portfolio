@@ -25,12 +25,34 @@ const RecommendationsPage = () => {
             author: 'Your Name',
             content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
         },
+        {
+            id: 4,
+            // className: ''
+            title: 'My First Blog Post',
+            date: 'March 1, 2024',
+            author: 'Your Name',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+            id: 5,
+            title: 'My First Blog Post',
+            date: 'March 1, 2024',
+            author: 'Your Name',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+            id: 6,
+            title: 'Second Blog Post',
+            date: 'March 15, 2024',
+            author: 'Your Name',
+            content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        },
     ];
 
     return(
         <div className="recommendations-page">
             <h1 className="gradient-text header-container bold" style={{paddingTop: '25px', paddingBottom: '25px'}}>Testimonials & Recommendations</h1>
-            <div className="recommendations-list">  
+            <div className="recommendations-list" style={{display: 'flex', flexWrap: 'wrap', justifyItems: 'center'}}>  
                 {recommendations.map(recommendation => (
                     <Recommendation 
                         key={recommendation.id}

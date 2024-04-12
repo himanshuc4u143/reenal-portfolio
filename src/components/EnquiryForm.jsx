@@ -38,6 +38,7 @@ function EnquiryForm() {
                     <label htmlFor="messageTextarea" className="form-label">Message</label>
                     <textarea className="form-control" id="messageTextarea" rows="5" placeholder="Message"></textarea>
                 </div>
+                <center><button className="btn btn-primary btn-lg" type="submit">Submit</button></center>
             </div>
         {/* </div>
       </div> */}

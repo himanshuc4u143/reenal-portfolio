@@ -1,9 +1,10 @@
 import React from 'react';
+import './recommendation.css';
 
 const Recommendation = ({ title, date, author, content }) => {
     return (
-        <div className='col-md-4 mb-3'> {/* Added Bootstrap grid classes */}
-            <div className='card h-100'>
+        <div className='card-group m-3'> {/* Added Bootstrap grid classes */}
+            <div className='card h-100 testimonialCard text-bg-info border-primary'>
                 <div className='card-body d-flex flex-column justify-content-between'> {/* Added Flexbox classes */}
                     <div>
                         <h5 className='card-title'>{title}</h5>

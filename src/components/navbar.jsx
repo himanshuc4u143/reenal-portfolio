@@ -7,7 +7,8 @@ import './navbar.css';
 function Navbar() {
   
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-transparent nav">
+    // <nav className="navbar navbar-expand-lg navbar-dark bg-transparent nav">
+    <nav className="navbar navbar-expand-lg navbar-light nav">
       <div className="container-fluid">
         <a className="navbar-brand nav-link" href="#home">
           {/* <img src={logo} alt="Logo" className="logo App-logo" /> */}
