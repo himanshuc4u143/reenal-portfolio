@@ -14,6 +14,7 @@ import VideoThumbnailComponent from './components/VideoThumbnailComponent';
 // import Hobbies from './components/Hobbies';
 import Carousel from './components/Carousel';
 import ProjectsHomepage from './components/ProjectsHomepage';
+import ProgressBar from './components/ProgressBar';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Carousel/>
         {/* <Home /> */}
         <About/>
-        <HorizontalChart/>
+        {/* <HorizontalChart/> */}
+        <ProgressBar/>
         <div className="content"> {/* Add a container for the Projects section */}
         <ProjectsHomepage />
         <BlogsPage/>

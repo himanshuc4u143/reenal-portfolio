@@ -4,6 +4,7 @@ import "./videoThumbnailComponent.css";
 import "./projects.css";
 import vidThumbnail1 from "../vidthumbnail1.png";
 import vidThumbnail2 from "../vidThumbnail2.jpeg";
+import vidThumbnail3 from '../images/Software_Engineer_to_Data_Scientist.png';
 
 const VideoThumbnailComponent = () => {
   // const videoRef = useRef(null);
@@ -72,9 +73,9 @@ const VideoThumbnailComponent = () => {
             </video> */}
             <div className="video-overlay">
               {/* <i className="play-icon fas fa-play-circle"></i> */}
-              <a href="https://www.youtube.com/watch?v=X63Y3quS3YI&ab_channel=AnalyticsVidhya">
-                <i className="play-icon fas fa-play-circle"></i>
-              </a>
+              <a href="https://www.youtube.com/watch?v=X63Y3quS3YI&ab_channel=AnalyticsVidhya" target="_blank">
+    <i className="play-icon fas fa-play-circle"></i>
+</a>
             </div>
           </div>
           <h4
@@ -124,7 +125,7 @@ const VideoThumbnailComponent = () => {
                 className="img-fluid"
               />
               <div className="video-overlay">
-                <a href="https://www.youtube.com/watch?v=-s5jpzwZEB0&ab_channel=PriyaBhatia">
+                <a href="https://www.youtube.com/watch?v=-s5jpzwZEB0&ab_channel=PriyaBhatia" target="_blank">
                   <i className="play-icon fas fa-play-circle"></i>
                 </a>
               </div>
@@ -164,13 +165,13 @@ const VideoThumbnailComponent = () => {
               </video> */}
 
               <img
-                src={vidThumbnail2}
+                src={vidThumbnail3}
                 alt="Podcast"
                 // style={{ paddingTop: "100px" }}
                 className="img-fluid"
               />
               <div className="video-overlay">
-                <a href="https://www.youtube.com/watch?v=-s5jpzwZEB0&ab_channel=PriyaBhatia">
+                <a href="https://www.youtube.com/watch?v=o5bT544mXWk&ab_channel=KrishNaik" target="_blank">
                   <i className="play-icon fas fa-play-circle"></i>
                 </a>
               </div>
@@ -185,7 +186,7 @@ const VideoThumbnailComponent = () => {
                   paddingLeft: "20px",
                 }}
               >
-                Exploring the Bhagavad Gita Chatbot Powered by Llama2 AI
+                Transition From Web Developer To Data Scientist In Sweden- Ft: Ineuron
             </h4>
           </div>
         </div>
