@@ -1,0 +1,18 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .empty-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text horizontally */
+    padding: 20px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin below the content */
+    /* border: 1px solid black; */
+  }

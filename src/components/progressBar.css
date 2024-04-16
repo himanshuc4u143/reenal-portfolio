@@ -1,0 +1,10 @@
+.empty-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text horizontally */
+    padding: 20px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin below the content */
+    border:  2px solid black;
+  }

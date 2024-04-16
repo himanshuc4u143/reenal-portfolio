@@ -1,0 +1,19 @@
+.imgCol{
+
+}
+
+.formCol{
+    text-align:  left;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #FFC107, blue, #FF5722);
+    -webkit-background-clip: text; /* Webkit (Safari, Chrome) browsers */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .form-control {
+    background-color: transparent;
+  }
+  
