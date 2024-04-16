@@ -27,11 +27,13 @@ function ProjectsHomepage() {
                 <div className="card-body">
                   <h5 className="card-title">Asset <a href="https://www.asset.healthcare/">https://www.asset.healthcare/</a></h5>
                   <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae provident et error, nesciunt porro magni.</p>
-                  <a href="/projects/1" className="btn btn-primary">See More</a>
+                  {/* <a href="/projects/1" className="btn btn-primary">See More</a> */}
+                  <Link className="nav-link" aria-current="page" to="/projects/1">About</Link>
                   <button className="btn btn-primary" onClick={() => window.location.href = '/projects/1'}>See More</button>
 
                 </div>
               </div>
+              <Link className="nav-link" aria-current="page" to="/projects/1">About</Link>
             </div>
             <div className="col-4">
               <div className="card" id='2'>

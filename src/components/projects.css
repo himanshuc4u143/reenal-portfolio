@@ -6,7 +6,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
   } */
-  
+  .content {
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
   .card {
     width: 20rem; /* Increase the width of each card */
     height: 35rem; /* Increase the height of each card */

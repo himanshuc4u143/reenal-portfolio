@@ -4,24 +4,21 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/styled": "^11.11.5",
     "@fortawesome/fontawesome-free": "^6.5.1",
-    "@popperjs/core": "^2.11.8",
+    "@mui/material": "^5.15.15",
+    "@mui/x-charts": "^7.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "ajv": "^8.12.0",
     "bootstrap": "^5.3.3",
-    "chart.js": "^4.4.2",
     "mdb-react-ui-kit": "^7.2.0",
     "react": "^18.2.0",
-    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^6.1.8",
-    "typescript": "^5.3.3",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "classnames": "2.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,19 +26,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "eslintConfig": {
-      "extends": "react-app",
-      "overrides": [
-        {
-          "files": ["**/*.test.js"],
-          "env": {
-            "jest": true
-          }
-        }
-      ]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -53,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.1.0"
   }
 }

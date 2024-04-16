@@ -7,9 +7,9 @@ import img4 from '../images/carousel_images/img4.png'
 import img5 from '../images/carousel_images/img5.jpeg'
 
 
-export default function App() {
+export default function Carousel() {
   return (
-    <MDBCarousel showIndicators showControls fade>
+    <MDBCarousel vertical showIndicators showControls fade>
       <MDBCarouselItem itemId={1}>
         <img src={img1} className='d-block w-100' alt='...' />
         <MDBCarouselCaption>

@@ -1,10 +1,9 @@
 import React, { useRef } from "react";
-import vid from "../SampleVideo_1280x720_1mb.mp4";
 import "./videoThumbnailComponent.css";
 import "./projects.css";
-import vidThumbnail1 from "../vidthumbnail1.png";
-import vidThumbnail2 from "../vidThumbnail2.jpeg";
-import vidThumbnail3 from '../images/Software_Engineer_to_Data_Scientist.png';
+import vidThumbnail1 from "../images/vidThumbnails/vidthumbnail1.png";
+import vidThumbnail2 from "../images/vidThumbnails/vidThumbnail2.jpeg";
+import vidThumbnail3 from '../images/vidThumbnails/Software_Engineer_to_Data_Scientist.png';
 
 const VideoThumbnailComponent = () => {
   // const videoRef = useRef(null);
