@@ -1,0 +1,63 @@
+.empty-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Center text horizontally */
+    padding: 20px;
+    /* Add padding for spacing */
+    margin-bottom: 20px;
+    /* Add margin below the content */
+}
+
+/* .myImg {
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .myImg:before {
+    background-image: conic-gradient(
+        #04b0ee 20deg,
+        transparent 120deg
+    );
+    height: 150%;
+    width: 150%;
+    left: -25%;
+
+  }
+
+  .myImg:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+
+/* body {
+    background-color: #151320;
+
+  }
+
+   */
+
+.fancy-border-radius {
+    /* border-radius: 4% 96% 4% 96% / 94% 4% 96% 6%; */
+
+    /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+    /* width: 400px;
+    height: 400px; */
+    /* background: #ad5389;
+    background: -webkit-linear-gradient(to right,
+            #3c1053,
+            #ad5389);
+    background: linear-gradient(to right,
+            #3c1053,
+            #ad5389); */
+}
+
+.fancy-border-shadow {
+    -webkit-box-shadow: 8px 8px 3px 2px #b5e0ff;
+-moz-box-shadow: 8px 8px 3px 2px #b5e0ff;
+box-shadow: 8px 8px 3px 2px #b5e0ff;
+}

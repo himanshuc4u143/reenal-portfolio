@@ -58,7 +58,7 @@ function Home() {
           <h1 className="black-bold">Hello, I’m <span className="red-text">Reenal.</span></h1>
         </header>
         <p className="par-content">
-          Experienced technologist with a strong background in software development and data science, adept at crafting chatbots and virtual assistants, with a proven track record of quickly adapting to emerging technologies and translating business requirements into technical solutions. <span style={invertedTextStyle}>This text is inverted.</span>
+        Experienced technologist with a strong background in software development and data science, adept at crafting <br />chatbots and virtual assistants, with a proven track record of quickly adapting to emerging technologies and <br />translating business requirements into technical solutions. Motivated team player with excellent interpersonal skills, dedicated to <br />collaborating effectively to achieve optimal outcomes while applying advanced data science <br /> techniques to address complex business and engineering challenges.
         </p>
         <a href={reenalCV} download="Reenal_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-danger btn-lg" style={{borderRadius:'50px'}}>Download CV</a>
       </div>

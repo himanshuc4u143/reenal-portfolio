@@ -16,6 +16,8 @@ import Carousel from "./components/Carousel";
 import ProjectsHomepage from "./components/ProjectsHomepage";
 import ProgressBar from "./components/ProgressBar";
 import SuccessStory from './components/SuccessStory';
+import Home from './components/Home';
+import AboutMe from "./components/AboutMe";
 
 
 function App() {
@@ -26,8 +28,9 @@ function App() {
       </div>
       <div>
         <Carousel />
-        {/* <Home /> */}
-        <About />
+        <Home />
+        {/* <About /> */}
+        <AboutMe/>
         {/* <HorizontalChart/> */}
 
         <div className="content">

@@ -17,6 +17,7 @@ import ProjectPage from './ProjectPages/ProjectPage';
 import Books from './components/Books';
 import Hobbies from './components/Hobbies';
 import BlogsPage from './components/BlogsPage';
+import Certificates from './components/Certificates';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,11 @@ const router = createBrowserRouter([
   {
     path: '/blogs',
     element: <BlogsPage/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: '/certificates',
+    element: <Certificates/>,
     errorElement: <ErrorPage/>
   }
 ]);

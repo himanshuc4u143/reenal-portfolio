@@ -63,7 +63,7 @@ export default function SuccessStory() {
           borderImage:
             "linear-gradient(45deg, #800080, #87ceeb, #8a2be2, #00ffff) 1",
           borderRadius: "10px",
-          borderImageSlice: "4", // Adjust the radius to match the borderRadius
+          borderImageSlice: "10", // Adjust the radius to match the borderRadius
           margin: "10px",
         }}
       >
