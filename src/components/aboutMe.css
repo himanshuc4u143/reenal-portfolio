@@ -1,13 +1,12 @@
 
 .main-container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
 }
 
 .myCol {
-    border: 2px solid red;
-    background-image:url(../images/no-background-img/ai-generated-smooth-wallpaper.jpg);
-    background-position: right bottom 50px 100px, left top;
+    /* border: 2px solid red; */
+    background-color: cornsilk;
     background-repeat: no-repeat, repeat;
 }
 
@@ -22,3 +21,42 @@
 .backgroundImg {
     position: absolute;
 } */
+
+
+/* body {
+    background: #000;
+  } */
+  
+  .wrap {
+    /* top: 100%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 500vh;
+  }
+  
+  .circle {
+    /* background: plum; */
+    width: 500px;
+    height: 500px;
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    overflow: hidden;
+    animation: morph 3s linear infinite;
+  }
+  
+  .circle img {
+    width: 100%;
+  }
+  
+  @keyframes morph {
+    0%, 100% {
+      border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    }
+    34% {
+      border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    }
+    67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+  }
+  
