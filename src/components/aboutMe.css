@@ -42,6 +42,20 @@
     border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
     overflow: hidden;
     animation: morph 3s linear infinite;
+    position: relative;
+  }
+
+  .circle::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position absolute to overlay the image */
+    top: -2%;
+    left: -2%;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: inherit; /* Inherit border-radius from parent */
+    /*background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
+    animation: glowing-shadow 2s infinite alternate; /* Glowing animation */
   }
   
   .circle img {
@@ -60,3 +74,11 @@
     }
   }
   
+  @keyframes glowing-shadow {
+    0% {
+      box-shadow: 0 0 10px 5px cyan; /* Initial shadow */
+    }
+    100% {
+      box-shadow: 0 0 20px 10px cyan; /* Glowing shadow */
+    }
+  }
