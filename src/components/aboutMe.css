@@ -9,8 +9,10 @@
 .myCol {
     /* border: 2px solid red; */
     /* background-color: cornsilk; */
-    background-repeat: no-repeat, repeat;
-    background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif);
+    background-repeat: no-repeat;
+    /* background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif); */
+    /* background-position: cover.0; */
+    
 }
 
 /* .foregroundImg {

@@ -26,15 +26,16 @@ function App() {
         <Navbar />
       </div>
       <div>
-        <Carousel />
+        
         
         {/* <About /> */}
         <AboutMe/>
         {/* <HorizontalChart/> */}
-
+        {/* <Carousel /> */}
         <div className="content">
           {" "}
           {/* Add a container for the Projects section */}
+          <Carousel />
           <ProgressBar />
           <ProjectsHomepage />
           <BlogsPage />

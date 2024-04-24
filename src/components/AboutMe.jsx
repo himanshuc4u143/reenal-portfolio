@@ -5,9 +5,10 @@ import reenalCV from "../PDF/Reenal Boddul.pdf";
 import "../App.css";
 import aiImg from "../images/DeWatermark.ai_1713524697848.png";
 
+
 export default function AboutMe() {
   return (
-    <div className="myCol">
+    <div className="myCol" >
       <div className=" text-center">
         <div className="row g-0">
           <div className="col-6 col-md-7 myCol">

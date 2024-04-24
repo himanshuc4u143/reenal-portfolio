@@ -11,6 +11,7 @@
   color: grey;
   /* margin-left: -250px; */
   z-index: 2;
+  background: transparent;
 }
 
 .nav:hover {
