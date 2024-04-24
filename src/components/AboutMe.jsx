@@ -22,9 +22,9 @@ export default function AboutMe() {
                 // border: '2px solid black'
               }}
             >
-              <h2 className="gradient-text header-container">
+              <h3 className="gradient-text header-container">
                 Data Scientist | Mentor | Speaker | Content Creation
-              </h2>
+              </h3>
               <header className="header-container">
                 <h1 className="black-bold">
                   Hello, I’m <span className="red-text">Reenal.</span>
