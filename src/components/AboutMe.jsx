@@ -7,18 +7,19 @@ import aiImg from "../images/DeWatermark.ai_1713524697848.png";
 
 export default function AboutMe() {
   return (
-    <div className="main-container myCol" style={{ height: "1000px" }}>
-      <div class=" text-center">
-        <div class="row g-0">
-          <div class="col-6 col-md-7 myCol">
+    <div className="myCol">
+      <div className=" text-center">
+        <div className="row g-0">
+          <div className="col-6 col-md-7 myCol">
             <div
               className=""
               style={{
-                marginTop: "25%",
+                marginTop: "29%",
                 display: "flexbox",
                 textAlign: "left",
-                paddingLeft: "200px",
+                paddingLeft: "250px",
                 alignItems: "center",
+                // border: '2px solid black'
               }}
             >
               <h2 className="gradient-text header-container">
@@ -41,19 +42,20 @@ export default function AboutMe() {
                 applying advanced data science  techniques to address
                 complex business and engineering challenges.
               </p>
+              <div style={{paddingLeft: '10%', paddingTop: '1px'}}>
               <a
                 href={reenalCV}
                 download="Reenal_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-danger btn-lg"
-                style={{ borderRadius: "50px" }}
+                style={{ borderRadius: "50px", boxShadow: "0 8px 16px rgba(255, 0, 0, 0.4)"}}
               >
                 Download CV
-              </a>
+              </a></div>
             </div>
           </div>
-          <div class="col-6 col-md-5 wrap" style={{ height: "1000px", top: '50%' }}>
+          <div class="col-6 col-md-5 wrap" style={{ height: "1000px", top: '50%', paddingLeft: '2%' }}>
             <div className="circle">
               <img src={aiImg} alt="" />
             </div>

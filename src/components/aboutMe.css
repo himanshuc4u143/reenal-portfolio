@@ -1,13 +1,16 @@
 
 .main-container {
     /* border: 2px solid black; */
-    background-color: white;
+    /* background-color: white; */
 }
+
+
 
 .myCol {
     /* border: 2px solid red; */
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     background-repeat: no-repeat, repeat;
+    background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif);
 }
 
 /* .foregroundImg {
@@ -32,7 +35,7 @@
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    height: 500vh;
+    /* height: 100vh; */
   }
   
   .circle {

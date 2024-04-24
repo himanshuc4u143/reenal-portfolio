@@ -19,7 +19,6 @@ import SuccessStory from './components/SuccessStory';
 import Home from './components/Home';
 import AboutMe from "./components/AboutMe";
 
-
 function App() {
   return (
     <div>
@@ -28,7 +27,7 @@ function App() {
       </div>
       <div>
         <Carousel />
-        <Home />
+        
         {/* <About /> */}
         <AboutMe/>
         {/* <HorizontalChart/> */}
