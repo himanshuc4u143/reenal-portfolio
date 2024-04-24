@@ -52,10 +52,10 @@
     left: -2%;
     width: 100%;
     height: 100%;
-    overflow: visible;
+    /* overflow: visible; */
     border-radius: inherit; /* Inherit border-radius from parent */
     /*background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
-    animation: glowing-shadow 2s infinite alternate; /* Glowing animation */
+    animation: glowing-shadow 3s linear infinite; /* Glowing animation */
   }
   
   .circle img {
@@ -76,9 +76,9 @@
   
   @keyframes glowing-shadow {
     0% {
-      box-shadow: 0 0 10px 5px cyan; /* Initial shadow */
+      box-shadow: 0 0 10px 5px #61dafb; /* Initial shadow */
     }
     100% {
-      box-shadow: 0 0 20px 10px cyan; /* Glowing shadow */
+      box-shadow: 0 0 20px 10px #61dafb; /* Glowing shadow */
     }
   }
