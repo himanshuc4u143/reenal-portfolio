@@ -15,16 +15,16 @@ const ProjectPageLayout = ({
 }) => {
   return (
     <div>
-      <div className="project-container">
+      <div className="">
         <div className="empty-div">
           <div style={{ textAlign: "left" }}>
             <h1
-              className="gradient-text header-container"
-              style={{ paddingTop: "100px", paddingBottom: "10px" }}
+              className="gradient-text"
+              style={{ paddingBottom: "10px" }}
             >
               {title}
             </h1>
-            <p>One liner description{oneLinerDescription}</p>
+            <p><h5>{oneLinerDescription}</h5></p>
             <div
               style={{
                 padding: "10px",
@@ -54,9 +54,9 @@ const ProjectPageLayout = ({
               src={assert}
               alt="assert"
             />
-            <p><h4>Description: </h4>{description}</p><hr />
+            <p className="par-content"><h4>Description: </h4>{description}</p><hr />
             
-            <p><h4>Technologies Used: </h4>{otherInfo}</p><hr />
+            <p className="par-content"><h4>Technologies Used: </h4>{otherInfo}</p><hr />
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ function ProjectsHomepage() {
           </div>
           <div className="row">
             <div className="col-4">
-              <div className="card" id='1'>
+              <div className="card card1" id='1'>
                 <img src={assert} className="card-img-top" alt="Assert" />
                 <div className="card-body">
                   <h5 className="card-title">Asset <a href="https://www.asset.healthcare/">https://www.asset.healthcare/</a></h5>
@@ -36,7 +36,7 @@ function ProjectsHomepage() {
               <Link className="nav-link" aria-current="page" to="/projects/1">About</Link>
             </div>
             <div className="col-4">
-              <div className="card" id='2'>
+              <div className="card card1" id='2'>
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
@@ -46,7 +46,7 @@ function ProjectsHomepage() {
               </div>
             </div>
             <div className="col-4">
-              <div className="card" id='3'>
+              <div className="card card1" id='3'>
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
@@ -58,7 +58,7 @@ function ProjectsHomepage() {
           </div>
           <div className="row" style={{justifyContent: 'center'}}>
             <div className="col-4">
-              <div className="card" id='4'>
+              <div className="card card1" id='4'>
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>
@@ -68,7 +68,7 @@ function ProjectsHomepage() {
               </div>
             </div>
             <div className="col-4">
-              <div className="card" id='5'>
+              <div className="card card1" id='5'>
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>

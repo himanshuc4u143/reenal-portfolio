@@ -15,4 +15,7 @@
     padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin below the content */
     /* border: 1px solid black; */
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0;
   }

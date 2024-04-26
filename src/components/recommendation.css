@@ -2,7 +2,10 @@
     /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-items: center;
-    width: fit-content;
+    /* width: fit-content; */
+    width: 20rem;
+    height: 30rem;
+    overflow-y: scroll;
 }

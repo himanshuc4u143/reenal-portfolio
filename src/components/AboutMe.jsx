@@ -1,7 +1,7 @@
 // import { render } from "@testing-library/react";
 import React from "react";
 import "./aboutMe.css";
-import reenalCV from "../PDF/Reenal Boddul.pdf";
+import reenalCV from "../PDF/ReenalBoddulResume.pdf";
 import "../App.css";
 import aiImg from "../images/DeWatermark.ai_1713524697848.png";
 
@@ -15,7 +15,7 @@ export default function AboutMe() {
             <div
               className=""
               style={{
-                marginTop: "29%",
+                marginTop: "20%",
                 display: "flexbox",
                 textAlign: "left",
                 paddingLeft: "250px",
@@ -56,7 +56,7 @@ export default function AboutMe() {
               </a></div>
             </div>
           </div>
-          <div class="col-6 col-md-5 wrap" style={{ height: "1000px", top: '50%', paddingLeft: '2%' }}>
+          <div class="col-6 col-md-5 wrap" style={{ height: "870px", top: '50%', paddingLeft: '2%'}}>
             <div className="circle">
               <img src={aiImg} alt="" />
             </div>

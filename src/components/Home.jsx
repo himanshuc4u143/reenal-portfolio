@@ -37,8 +37,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import bgImg from '../images/background.jpg';
 import reenalBgImg from '../images/reenal_bgImg.png';
-import reenalCV from '../PDF/Reenal Boddul.pdf';
+//import reenalCV from '../PDF/Reenal Boddul.pdf';
 import reenalBgImg1 from '../images/about_Me.png';
+import reenalCV from "../PDF/ReenalBoddulResume.pdf";
 
 function Home() {
   const handleDownload = () => {};

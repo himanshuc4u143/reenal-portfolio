@@ -18,6 +18,7 @@ import ProgressBar from "./components/ProgressBar";
 import SuccessStory from './components/SuccessStory';
 import Home from './components/Home';
 import AboutMe from "./components/AboutMe";
+import BlogsHomePage from "./components/BlogsHomePage";
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
           <Carousel />
           <ProgressBar />
           <ProjectsHomepage />
-          <BlogsPage />
+          <BlogsHomePage />
           <RecommendationsPage />
           <SuccessStory/>
           {/* <VerticalCarousel data={data.slides} leadingText={data.leadingText} /> */}

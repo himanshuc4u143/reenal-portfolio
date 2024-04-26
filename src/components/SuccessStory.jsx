@@ -102,7 +102,7 @@ export default function SuccessStory() {
               <br />
               <h4 className="bold gradient-text">The Education</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               I started my journey with a bachelors of science in Electronics.
               Having a keen interest in mathematics I did my masters in
               Industrial Mathematics and Computer Applications
@@ -119,7 +119,7 @@ export default function SuccessStory() {
             <center>
               <h4 className="bold gradient-text">Lockdown and time ...</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               My earlier job roles were on the lines of backend development and
               software consultant. During lockdown, with time in hand, and
               curiosity towards mathematics I stumbled upon Data science field.
@@ -138,7 +138,7 @@ export default function SuccessStory() {
             <center>
               <h4 className="bold gradient-text">The learning roadmap ...</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               There are abundance of resources online. I tried to keep it
               simple, started with basics of mathematics, then smaller
               introductions from here and there and I thn followed Ineroun
@@ -160,7 +160,7 @@ export default function SuccessStory() {
                 The everyday upskilling ...
               </h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               My go to approaches include reading books and papers, doing
               certification, exploring top platforms Kaggle, LinkedIn and
               Paperswithcode. I experiment with implementing different SOTA
@@ -179,7 +179,7 @@ export default function SuccessStory() {
             <center>
               <h4 className="bold gradient-text">The motivation ....</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               The biggest one is my love towards mathematics and its magic. Then
               I enjoy mentoring which is one of way for me to be on a continuous
               upskilling journey. I feel data always tells truth, as you go
@@ -198,7 +198,7 @@ export default function SuccessStory() {
             <center>
               <h4 className="bold gradient-text">Daily Job looks like ...</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               I have been lucky that my role involves me to be a part of end to
               end ML lifecycle. Definitely its like a big roller coaster but
               with lot of learnings and thats what I always look for. I think
@@ -218,7 +218,7 @@ export default function SuccessStory() {
             <center>
               <h4 className="bold gradient-text">The challenges ...</h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               <ul>
                 <li>
                   understanding domain knowledge. To tackle this, I read a lot
@@ -251,7 +251,7 @@ export default function SuccessStory() {
                 To the beginners in this field ...
               </h4>
             </center>
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               Data science is a vast ocean, so have patience while learning
               ,focus on math of each algorithm, participate in hackathons. Focus
               on your communication skills, ask questions and learn from others'
@@ -303,7 +303,7 @@ export default function SuccessStory() {
               Here's my story...
             </h4>
 
-            <p style={{ paddingLeft: "10px", fontStyle: "italic" }}>
+            <p className="par-content" style={{ paddingLeft: "10px", fontStyle: "italic" }}>
               “I connected with WiDS when I visited Pune, my hometown for a
               vacation in 2019 and really made the best investment of my time &
               this is how my Data Science Journey started” ” I have done BSc in
