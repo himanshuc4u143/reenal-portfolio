@@ -316,8 +316,10 @@ export default function SuccessStory() {
               initiatives inspired her & how she reskilled herself and got a job
               as a Data Scientist at Mainly.ai, Sweden. I truly discovered
               myself and my passion when I started working on Data Science. Yes,
-              this is what I really like, love and enjoy doing!. I realized this
-              and strongly felt this while attending WiDS Pune 2019 conference
+              this is what I really like, love and enjoy doing!.
+              <br />
+              <br />
+              I realized this and strongly felt this while attending WiDS Pune 2019 conference
               with amazing applications of ML in very diverse sectors & line up
               of speakers who were so positive & successful in their field.It
               was an amazing experience to visualize all facets of data science
@@ -327,8 +329,10 @@ export default function SuccessStory() {
               time insights about the conference, games to explain statistical
               concepts, face recognition for seamless registrations, live
               scribing! All this really deeply & truly inspired me to study,
-              research and explore more about data science. Initially, I
-              attended WiDS Pune pre conference events as a participant, which
+              research and explore more about data science. 
+              <br />
+              <br />
+              Initially, I attended WiDS Pune pre conference events as a participant, which
               were full day workshops on modelling, python, Cloud and IOT. After
               spending few weekends with WiDS Pune community, I soon transformed
               into a WiDS Pune volunteer and played an active role during the
@@ -341,7 +345,10 @@ export default function SuccessStory() {
               for anyone to join, just be there, observe, learn, explore at
               one’s own speed and pace. We got good personalized mentoring,
               advise and ample time and support from the organizers in choosing
-              our learning path. I then decided to learn this subject formally,
+              our learning path. 
+              <br />
+              <br />
+              I then decided to learn this subject formally,
               and get certified. I chose ineuron.ai as the platform to get
               certified. I started learning all tools, libraries needed for data
               science such as google Collaboratory, Flask, and different
@@ -353,7 +360,10 @@ export default function SuccessStory() {
               rejections as everyone wanted experience in data science but I
               didn’t give up and kept on learning from my interview experiences.
               After consistent efforts, hard work and perseverance I got a job
-              in DS at Mainly.ai. Although I am in Sweden currently, I am
+              in DS at Mainly.ai. 
+              <br />
+              <br />
+              Although I am in Sweden currently, I am
               closely connected and associated with WiDS Pune organizers and
               follow all their activities and events. The recent capacity
               building program in April-May 2021 on “Responsible AI”, I got

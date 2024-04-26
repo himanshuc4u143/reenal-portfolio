@@ -15,7 +15,7 @@ export default function Footer() {
             floating 
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#3b5998' }}
-            href='#!'
+            href='https://www.facebook.com/reenal.zampal'
             role='button'
           >
             <MDBIcon fab icon='facebook-f' />
@@ -25,7 +25,7 @@ export default function Footer() {
             floating
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#55acee' }}
-            href='#!'
+            href='https://twitter.com/ReenalZampal'
             role='button'
           >
             <MDBIcon fab icon='twitter' />
@@ -44,7 +44,7 @@ export default function Footer() {
             floating
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#ac2bac' }}
-            href='#!'
+            href='https://www.instagram.com/reenalzampal/'
             role='button'
           >
             <MDBIcon fab icon='instagram' />
@@ -54,7 +54,7 @@ export default function Footer() {
             floating
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#0082ca' }}
-            href='#!'
+            href='https://www.linkedin.com/in/reenal-zampal-boddul'
             role='button'
           >
             <MDBIcon fab icon='linkedin-in' />
@@ -64,7 +64,7 @@ export default function Footer() {
             floating
             className='m-1 d-flex justify-content-center align-items-center'
             style={{ backgroundColor: '#333333' }}
-            href='#!'
+            href='https://github.com/ree'
             role='button'
           >
             <MDBIcon fab icon='github' />
