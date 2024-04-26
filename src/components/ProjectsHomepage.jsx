@@ -26,7 +26,7 @@ function ProjectsHomepage() {
                 <img src={assert} className="card-img-top" alt="Assert" />
                 <div className="card-body">
                   <h5 className="card-title">Asset <a href="https://www.asset.healthcare/">https://www.asset.healthcare/</a></h5>
-                  <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae provident et error, nesciunt porro magni.</p>
+                  <p className="card-text">The objective is to predict person child T1D or not.</p>
                   {/* <a href="/projects/1" className="btn btn-primary">See More</a> */}
                   <Link className="nav-link" aria-current="page" to="/projects/1">About</Link>
                   <button className="btn btn-primary" onClick={() => window.location.href = '/projects/1'}>See More</button>
