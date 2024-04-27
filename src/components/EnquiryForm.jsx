@@ -15,7 +15,7 @@ function EnquiryForm() {
          */}
             <div className="formCol" style={{background: 'violet', padding: '50px', borderRadius: '11% 89% 95% 5% / 13% 100% 0% 87%'}}>
                 <h6 className="gradient-text bold">Lets Say Hii!!!</h6>
-                <h2>Hire Me.</h2>
+                <h2>Connect Me.</h2>
                 <h5>
                     Call us directly: +46-734945657
                     <br />

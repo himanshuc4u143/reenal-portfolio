@@ -4,6 +4,16 @@ import "./certificates.css";
 import sampleImg1 from "../images/reenal_bgImg.png";
 import { useState } from "react";
 import cdac from '../images/Certificates/cdac.png'
+import big_data from '../images/Certificates/big_data.jpg'
+import deep_learning from '../images/Certificates/deep_learning.jpg'
+import ds_arch from '../images/Certificates/ds_arch.jpg'
+import hackerrank from '../images/Certificates/hackerrank.png'
+import persistent from '../images/Certificates/persistent.jpg'
+import power_bi from '../images/Certificates/power_bi.jpg'
+import python from '../images/Certificates/python.jpg'
+import stats from '../images/Certificates/stats.jpg'
+import tableau from '../images/Certificates/tableau.jpg'
+import intro_genai from '../images/Certificates/intro_genai.png'
 
 export default function Certificates() {
   return (
@@ -43,7 +53,7 @@ export default function Certificates() {
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">CDAC</h3>
               </div>
             </div>
             <div
@@ -60,12 +70,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={deep_learning}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold"> Deep Learning Master</h3>
               </div>
             </div>
             <div
@@ -82,12 +92,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={big_data}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Big Data Master</h3>
               </div>
             </div>
             <div
@@ -104,12 +114,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={intro_genai}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Intoduction To Generative AI</h3>
               </div>
             </div>
             <div
@@ -126,12 +136,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={ds_arch}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Data Science Architecture</h3>
               </div>
             </div>
             <div
@@ -148,12 +158,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={stats}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Stats For Data Science </h3>
               </div>
             </div>
             <div
@@ -170,12 +180,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={python}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Python For Data Science</h3>
               </div>
             </div>
             <div
@@ -192,12 +202,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={power_bi}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Power BI Master</h3>
               </div>
             </div>
             <div
@@ -214,12 +224,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={tableau}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Tableau Master</h3>
               </div>
             </div>
             <div
@@ -236,12 +246,12 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={cdac}
+                  src={hackerrank}
                   alt=""
                   className=".img-fluid img-thumbnail"
                   style={{width: '100%', height: 'auto'}}
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Hackerrank</h3>
               </div>
             </div>
             <div
@@ -258,11 +268,11 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={sampleImg1}
+                  src={persistent}
                   alt=""
                   className=".img-fluid img-thumbnail myImg"
                 />
-                <h3 className="bold"> My Certificate 1</h3>
+                <h3 className="bold">Responsible Artificial Intelligence</h3>
               </div>
             </div>
             <div
@@ -279,7 +289,7 @@ export default function Certificates() {
                 }}
               >
                 <img
-                  src={sampleImg1}
+                  src={persistent}
                   alt=""
                   className=".img-fluid img-thumbnail myImg"
                 />

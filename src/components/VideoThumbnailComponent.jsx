@@ -39,14 +39,15 @@ const VideoThumbnailComponent = () => {
   return (
     <div className="projects-container" style={{paddingBottom: '80px'}}>
       <div className="empty-div">
-        <h2 className="gradient-text header-container">Title</h2>
-        <header className="header-container">
+        {/*<h2 className="gradient-text header-container">Title</h2>*/}
+        {/*<header className="header-container">
           <h3 className="black-bold">Some of My Recent Works</h3>
         </header>
         <p className="par-content">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration.
         </p>
+        */}
       </div>
       <div className="row">
         <div
