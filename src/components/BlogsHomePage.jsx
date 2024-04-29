@@ -11,7 +11,7 @@ const BlogsHomePage = () => {
       title: 'Explore the New Frontier of AI with Grok-1.5V: Your Multimodal Companion 🚀',
       //date: 'March 1, 2024',
       author: 'Reenal Boddul',
-      content: 'Hello All! Have you heard about Grok-1.5V? It’s not just another LLM model; it’s like giving your computer superpowers! Let me break it down for you in simple terms. So, whats the big deal with Grok-1.5V? Well, imagine a computer program that can understand not only text but also pictures, diagrams, charts, and even photos you take. Cool, right? Grok-1.5V isn t just a jack-of-all-trades; it is a master of many. It can handle all sorts of tasks, from understanding documents and science stuff to analyzing screenshots and real life photographs. It is like having a super-smart buddy who can help you make sense of the world around you. One of the coolest things about Grok-1.5V is its RealWorldQA benchmark what I found is vary interesting and powerfull. Sounds fancy, but it’s actually pretty straightforward. It’s like a test for AI to see how well it understands real-world stuff. And guess what? Grok-1.5V aces it! It’s great at understanding the world just like we do check on videos of demo on link below. And the best part? You can get in on the action too! You can download the RealWorldQA dataset and see for yourself how Grok-1.5V tackles real-world challenges. It’s like peeking behind the curtain of AI magic. But wait, there’s more! The folks behind Grok-1.5V are constantly working to make it even better. They’re not stopping here; they’re pushing the boundaries of what AI can do. So, who knows what amazing things Grok-1.5V will be able to do in the future? In a nutshell, Grok-1.5V is like having a super-smart friend who can understand the world in ways we never thought possible. So, why not give it a try? Who knows what incredible things you’ll discover with Grok-1.5V by your side! hashtag#LLM hashtag#Grok-1.5V hashtag#Grok hashtag#X hashtag#LLMRace hashtag#ElonMusk hashtag#MultiModel hashtag#DeepLearning hashtag#AI hashtag#DataScience'
+      content: 'Hello All! Have you heard about Grok-1.5V? It’s not just another LLM model; it’s like giving your computer superpowers! Let me break it down for you in simple terms. <br /><br /> So, whats the big deal with Grok-1.5V? Well, imagine a computer program that can understand not only text but also pictures, diagrams, charts, and even photos you take. Cool, right? Grok-1.5V isn t just a jack-of-all-trades; it is a master of many. It can handle all sorts of tasks, from understanding documents and science stuff to analyzing screenshots and real life photographs. It is like having a super-smart buddy who can help you make sense of the world around you. One of the coolest things about Grok-1.5V is its RealWorldQA benchmark what I found is vary interesting and powerfull. Sounds fancy, but it’s actually pretty straightforward. It’s like a test for AI to see how well it understands real-world stuff. And guess what? Grok-1.5V aces it! It’s great at understanding the world just like we do check on videos of demo on link below. And the best part? You can get in on the action too! You can download the RealWorldQA dataset and see for yourself how Grok-1.5V tackles real-world challenges. It’s like peeking behind the curtain of AI magic. But wait, there’s more! The folks behind Grok-1.5V are constantly working to make it even better. They’re not stopping here; they’re pushing the boundaries of what AI can do. So, who knows what amazing things Grok-1.5V will be able to do in the future? In a nutshell, Grok-1.5V is like having a super-smart friend who can understand the world in ways we never thought possible. So, why not give it a try? Who knows what incredible things you’ll discover with Grok-1.5V by your side! hashtag#LLM hashtag#Grok-1.5V hashtag#Grok hashtag#X hashtag#LLMRace hashtag#ElonMusk hashtag#MultiModel hashtag#DeepLearning hashtag#AI hashtag#DataScience'
     },
     {
       id: 2,
@@ -29,12 +29,15 @@ const BlogsHomePage = () => {
       <div className="blogs-list">  
         {blogs.map(blog => (
           <Blog
-            key={blog.id}
-            title={blog.title}
-            date={blog.date}
-            author={blog.author}
-            content={blog.content}
-          />
+          key={blog.id}
+          title={blog.title}
+          date={blog.date}
+          author={blog.author}
+          content={blog.content.split('<br /><br />').map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        />
+
         ))}
       </div>
     </div>

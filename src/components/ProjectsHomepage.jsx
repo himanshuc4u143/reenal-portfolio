@@ -3,8 +3,10 @@
 import React from 'react';
 import './projects.css';
 import assert from '../images/assert.jpg'
-import gita from '../images/gita.png'
-import skin from '../images/skin.png'
+import gita from '../images/geeta.jpg'
+//import gita from '../images/gita.png'
+//import skin from '../images/skin.png'
+import skin from '../images/skin.webp'
 import alistair from '../images/alistair_project.png'
 import cotton from '../images/cotton.jpg'
 
