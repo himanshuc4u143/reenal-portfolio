@@ -18,7 +18,7 @@ function BookCard({ id, title, author, description, category, img }) {
   };
   return (
     <div className="col">
-      <div className="card card1">
+      <div className="card card1" style={{height: '300px'}}>
         <div className="row g-0" style={{}}>
           <div className="col"style={{maxWidth: 'fit-content'}}>
             <img
