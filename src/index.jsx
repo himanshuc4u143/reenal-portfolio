@@ -12,12 +12,13 @@ import {
 } from 'react-router-dom';
 
 import ErrorPage from './ErrorPage';
-import Projects from './components/Projects';
+ import Projects from './components/Projects';
 import ProjectPage from './ProjectPages/ProjectPage';
 import Books from './components/Books';
 import Hobbies from './components/Hobbies';
 import BlogsPage from './components/BlogsPage';
 import Certificates from './components/Certificates';
+import Projects1 from './components/Projects1';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/projects',
-    element: <Projects/>,
+    element: <Projects1/>,
     errorElement: <ErrorPage/>,
   },
   {

@@ -40,30 +40,34 @@ function GaugePointer() {
 export default function ProgressBar() {
   return (
     <MDBContainer fluid style={{ border: "2px solid red" }}>
-      <div className="empty-div">
+      <div className="">
         <div className="empty-div">
-          <h2 className="gradient-text header-container">Our projects</h2>
-          <header className="header-container">
+          <h2 className="gradient-text header-container">My Tech-Stack</h2>
+          {/* <header className="header-container">
             <h1 className="black-bold">Some of My Recent Works</h1>
-          </header>
-          <p className="par-content">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
-          </p>
+          </header> */}
         </div>
-        <div style={{ width: "80%", height: "auto" }}>
-          <MDBProgress height="20" style={{ border: "2px solid brown" }}>
-            <MDBProgressBar
-              striped
-              animated
-              width="25"
-              valuemin={0}
-              valuemax={100}
-            >
-              25%
-            </MDBProgressBar>
-          </MDBProgress>
+        <div className="row g-0" style={{width: '100%', textAlign: 'left', border: '2px solid purple'}}>
+          <div className="col-1" style={{ border: "2px solid blue" }}>
+            <h6>Java</h6>
+          </div>
+          <div className="col-4">
+            <div style={{ width: "80%", height: "auto" }}>
+              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+                <MDBProgressBar
+                  striped
+                  animated
+                  width="25"
+                  valuemin={0}
+                  valuemax={100}
+                >
+                  25%
+                </MDBProgressBar>
+              </MDBProgress>
+            </div>
+          </div>
         </div>
+
         <div>
           <GaugeContainer
             className="animated"
@@ -91,9 +95,8 @@ export default function ProgressBar() {
               margin: "3px", // for md spacing
             },
           }}
-          >
+        >
           <Gauge width={100} height={100} value={50} />
-          
         </div>
       </div>
     </MDBContainer>

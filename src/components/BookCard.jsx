@@ -59,17 +59,12 @@ function BookCard({ id, title, author, description, category, img }) {
           <p className="card-description" style={{ textAlign: "left" }}>
             {description}
           </p>
-          <div style={{textAlign: "right"}}>
+          <div style={{ position: 'absolute', bottom: '0', right: '0', paddingRight: '20px', paddingBottom: '13px'}}>
           <h6
-            className="card-category"
+            className="category"
             style={{
               backgroundColor: getCategoryColor(category),
-              borderRadius: "4px",
-              paddingLeft: "8px",
-              display: "inline-block",
-              width: "fit-content",
-              paddingRight: "8px",
-              textAlign: "left",
+              
             }}
           >
             {category}

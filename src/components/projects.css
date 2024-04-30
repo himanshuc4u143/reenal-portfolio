@@ -16,7 +16,7 @@
 
   .card1 {
     width: 20rem; /* Increase the width of each card1 */
-    height: 35rem; /* Increase the height of each card1 */
+    height: 30rem; /* Increase the height of each card1 */
     margin-bottom: 40px; /* Adjust spacing between card1s */
     position: relative;
     overflow: hidden;
@@ -48,11 +48,12 @@
   
   .card1:hover:before {
     opacity: 0.3;
+    pointer-events: none;
   }
   
   .card1 img {
     width: 100%;
-    height: 200px;
+    height: 50%;
     object-fit: cover;
   }
   

@@ -40,7 +40,7 @@ function ProjectsHomepage() {
 
                 </div>
               </div>
-              <Link className="nav-link" aria-current="page" to="/projects/1">About</Link>
+              {/* <Link className="nav-link" aria-current="page" to="/projects/1">About</Link> */}
             </div>
             <div className="col-4">
               <div className="card card1" id='2'>
