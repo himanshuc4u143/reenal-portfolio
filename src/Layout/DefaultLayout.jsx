@@ -6,7 +6,7 @@ function DefaultLayout({children}) {
   return (
     <div>
         <Navbar/>
-        <div style={{paddingTop: '100px', paddingBottom: '50px'}}>
+        <div style={{paddingBottom: '50px'}}>
             {children}
         </div>
         <Footer/>

@@ -15,7 +15,7 @@ import ErrorPage from './ErrorPage';
  import Projects from './components/Projects';
 import ProjectPage from './ProjectPages/ProjectPage';
 import Books from './components/Books';
-import Hobbies from './components/Hobbies';
+import HobbiesPage from './components/HobbiesPage';
 import BlogsPage from './components/BlogsPage';
 import Certificates from './components/Certificates';
 import Projects1 from './components/Projects1';
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/hobbies',
-    element: <Hobbies/>,
+    element: <HobbiesPage/>,
     errorElement: <ErrorPage/>
   },
   {
