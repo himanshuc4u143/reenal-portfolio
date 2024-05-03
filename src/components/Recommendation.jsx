@@ -17,7 +17,7 @@ const Recommendation = ({ title, date, author, content }) => {
             </h6>
             <p className="card-text" style={{ fontStyle: "italic" }}>
               <h2>
-                <span style={{ color: "blue" }}>
+                <span style={{ color: "black" }}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

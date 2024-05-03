@@ -163,7 +163,7 @@ function ProgressBar() {
           >
             <div className="linearDiv hover-shadow rounded-2 hover-overlay hover-zoom">
               <h6>Sklearn</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }} className="hover-overlay hover-zoom">
+              <MDBProgress height="20" style={{ border: "2px solid brown" }} className="">
                 <MDBProgressBar
                   striped
                   animated
