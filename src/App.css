@@ -80,6 +80,8 @@
   background: linear-gradient(45deg, #61dafb,#ff0000, #00ff00,#00ff00,#61dafb); /* Adjust colors and angle as needed */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.5);
 }
 
 .scroll-container {

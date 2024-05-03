@@ -1,10 +1,49 @@
 .empty-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* Center text horizontally */
+  padding: 20px;
+  /* Add padding for spacing */
+  margin-bottom: 20px;
+  /* Add margin below the content */
+  /* border:  2px solid black; */
+}
+
+.gaugeDiv {
+  width: fit-content;
+  text-align: center;
+  /* border: 1px solid black; */
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+}
+
+  .circleDiv {
+    width: fit-content;
+    /* text-align: center; */
+    padding: 10px;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Center text horizontally */
-    padding: 20px; /* Add padding for spacing */
-    margin-bottom: 20px; /* Add margin below the content */
-    border:  2px solid black;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+  }
+
+  .linearDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
   }

@@ -33,11 +33,12 @@ function App() {
         <AboutMe/>
         {/* <HorizontalChart/> */}
         {/* <Carousel /> */}
+        <ProgressBar /> 
         <div className="content">
           {" "}
           {/* Add a container for the Projects section */}
           <Carousel />
-          <ProgressBar />
+          
           <ProjectsHomepage />
           <BlogsHomePage />
           <RecommendationsPage />
