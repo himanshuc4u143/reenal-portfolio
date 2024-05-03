@@ -34,7 +34,30 @@ export default function Certificates() {
             class="row gy-2"
             style={{ padding: "50px" }}
             >
-            
+              <center>
+            <div
+              class="col-6"
+              style={{ padding: "30px" }}
+              >
+              <div
+                class="p-3 fancy-border-shadow fancy-border-radius hover-zoom"
+                style={{
+                  border: "10px solid black", // Green border with 3px width
+                  borderRadius: "10px", // Rounded corners
+                  padding: "10px", // Some padding inside the border
+                  // boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
+                }}
+              >
+                <img
+                  src={cdac}
+                  alt=""
+                  className=".img-fluid img-thumbnail"
+                  style={{width: '100%', height: 'auto'}}
+                />
+                <h3 className="bold">CDAC</h3>
+              </div>
+            </div>
+            </center>
             <div
               class="col-6"
               style={{ padding: "30px" }}
@@ -80,8 +103,30 @@ export default function Certificates() {
                 <h3 className="bold">Big Data Master</h3>
               </div>
             </div>
-            
-            
+            <center>
+            <div
+              class="col-6"
+              style={{ padding: "30px" }}
+              >
+              <div
+                class="p-3 fancy-border-shadow fancy-border-radius hover-zoom"
+                style={{
+                  border: "10px solid black", // Green border with 3px width
+                  borderRadius: "10px", // Rounded corners
+                  padding: "10px", // Some padding inside the border
+                  // boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
+                }}
+              >
+                <img
+                  src={intro_genai}
+                  alt=""
+                  className=".img-fluid img-thumbnail"
+                  style={{width: '100%', height: 'auto'}}
+                />
+                <h3 className="bold">Introduction To Generative AI</h3>
+              </div>
+            </div>
+            </center>
             <div
               class="col-6"
               style={{ padding: "30px" }}
@@ -173,48 +218,8 @@ export default function Certificates() {
             </div>
             
             
-            <div
-              class="col-6"
-              style={{ padding: "30px" }}
-            >
-              <div
-                class="p-3"
-                style={{
-                  border: "10px solid black", // Green border with 3px width
-                  borderRadius: "10px", // Rounded corners
-                  padding: "10px", // Some padding inside the border
-                  boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
-                }}
-              >
-                <img
-                  src={persistent}
-                  alt=""
-                  className=".img-fluid img-thumbnail myImg"
-                />
-                <h3 className="bold">Responsible Artificial Intelligence</h3>
-              </div>
-            </div>
-            <div
-              class="col-6 hover zoom"
-              style={{ padding: "30px" }}
-            >
-              <div
-                class="p-3 hover-zoom hover-shadow"
-                style={{
-                  border: "10px solid black", // Green border with 3px width
-                  borderRadius: "10px", // Rounded corners
-                  padding: "10px", // Some padding inside the border
-                  boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
-                }}
-              >
-                <img
-                  src={persistent}
-                  alt=""
-                  className=".img-fluid img-thumbnail myImg"
-                />
-                <h3 className="bold"> My Certificate 1</h3>
-              </div>
-            </div>
+            
+            
             <div
               class="col-6"
               style={{ padding: "30px" }}
@@ -259,29 +264,29 @@ export default function Certificates() {
                 <h3 className="bold">Hackerrank</h3>
               </div>
             </div>
+            
             <div
               class="col-6"
               style={{ padding: "30px" }}
-              >
+            >
               <div
                 class="p-3 fancy-border-shadow fancy-border-radius hover-zoom"
                 style={{
                   border: "10px solid black", // Green border with 3px width
                   borderRadius: "10px", // Rounded corners
                   padding: "10px", // Some padding inside the border
-                  // boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
+                  boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
                 }}
               >
                 <img
-                  src={intro_genai}
+                  src={persistent}
                   alt=""
-                  className=".img-fluid img-thumbnail"
-                  style={{width: '100%', height: 'auto'}}
+                  className=".img-fluid img-thumbnail myImg"
                 />
-                <h3 className="bold">Introduction To Generative AI</h3>
+                <h3 className="bold">Responsible Artificial Intelligence</h3>
               </div>
             </div>
-            <div
+            {/* <div
               class="col-6"
               style={{ padding: "30px" }}
               >
@@ -302,7 +307,7 @@ export default function Certificates() {
                 />
                 <h3 className="bold">CDAC</h3>
               </div>
-            </div>
+            </div> */}
             
             {/* <div
               class="col-6 fancy-border-radius fancy-border-shadow"

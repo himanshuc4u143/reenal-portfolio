@@ -44,7 +44,7 @@ function ProjectsHomepage() {
             </div>
             <div className="col-4">
               <div className="card card1" id='2'>
-                <img src={gita}  className="card-img-top" alt="..." />
+                <center><img src={gita}  className="card-img-top" style={{display: 'inline-block', height: '240px', width: '60%'}} alt="..." /></center>
                 <div className="card-body">
                   <h5 className="card-title">Bhagavad Gita Chatbot</h5>
                   <p className="card-text">Created chat bot (LLM /Langchain / LLAMA 2) to provide relevant responses to commonly asked questions about the Bhagavad Gita.</p>

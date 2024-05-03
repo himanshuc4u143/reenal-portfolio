@@ -88,7 +88,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -112,7 +112,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -131,7 +131,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -151,7 +151,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -172,7 +172,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "white",
+              // backgroundColor: "white",
               marginBottom: "4px",
             }}
           >
@@ -191,7 +191,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -211,7 +211,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -242,7 +242,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >
@@ -281,7 +281,7 @@ export default function SuccessStory() {
             style={{
               border: "10px solid #0091e6",
               borderRadius: "4px",
-              backgroundColor: "#38b6ff",
+              // backgroundColor: "#38b6ff",
               marginBottom: "4px",
             }}
           >

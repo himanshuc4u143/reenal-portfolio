@@ -7,6 +7,7 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
+  border: 2px solid red;
 }
 
 .empty-div {
@@ -15,15 +16,20 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   margin-bottom: 20px;
+  border: 2px solid blue;
+}
+
+.row1 {
+width: fit-content;
 }
 
 .category {
   background-color: purple;
   border-radius: 5px;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 5px;
   margin-bottom: 10px; /* Add some spacing between categories */
 }
 

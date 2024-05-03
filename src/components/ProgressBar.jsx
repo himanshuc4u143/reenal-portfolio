@@ -133,6 +133,7 @@ function ProgressBar() {
             style={{
               // border: "2px solid blue",
               padding: "10px",
+              paddingLeft: '50px',
               // display: "flex",
               flexDirection: "column",
               // textAlign: 'center',

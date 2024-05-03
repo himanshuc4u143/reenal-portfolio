@@ -37,7 +37,7 @@ function App() {
         <div className="content">
           {" "}
           {/* Add a container for the Projects section */}
-          <Carousel />
+          {/* <Carousel /> */}
           
           <ProjectsHomepage />
           <BlogsHomePage />

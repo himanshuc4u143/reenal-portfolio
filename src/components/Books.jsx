@@ -97,7 +97,8 @@ function Books() {
   }, []);
   return (
     <DefaultLayout>
-      <div id="projects" className="books-container">
+      <div id="books" className="books-container">
+        <div className="">
         <div className="empty-div">
           <h1 className="gradient-text header-container">Books</h1>
           <header className="header-container">
@@ -107,9 +108,10 @@ function Books() {
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>
+          </div>
 
           {/* Book Cards */}
-          <div className="row" style={{ paddingTop: "20px" }}>
+          <div className="row row1" style={{ paddingTop: "20px", border: '2px solid black' }}>
             <div className="col">
               <h5 className="category1">To Read</h5>
               {filterBooksByStatus("To Read").map((book) => (
