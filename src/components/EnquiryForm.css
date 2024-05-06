@@ -2,8 +2,25 @@
 
 }
 
+.img-div {
+  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.background-div{
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: bottom-right;
+  /* border: 2px solid black; */
+  /* min-width: 1800px; */
+}
+
 .formCol{
-    text-align:  left;
+    text-align: left;
 }
 
 .gradient-text {
@@ -17,3 +34,144 @@
     background-color: transparent;
   }
   
+  /* /////////////////////////////// */
+/* 
+  body {
+    font-family: Arial;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    border: 2px solid black;
+  }
+  /*  header style starts *//*
+  .site-banner {
+    min-height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1Z354jm_mzg4EFC0lrfDXAkhvzPjsteqAw&s');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    border: 2px solid red;
+  }
+  
+  .site-banner a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .header-menu {
+    padding: 40px 20px;
+  }
+  
+  #header-right-menu {
+    float: right;
+  }
+  
+  .header-active {
+    background: rgba(0, 0, 0, 0.5);
+      border-radius: 25px;
+  }
+  
+  .heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: cursive;
+    padding: 40px 0px;
+    font-size: 3em;
+    margin: 0px;
+  }
+  /*  header style ends *//*
+  
+  .footer {
+    display: flex;
+  }
+  
+  .footer-column {
+    width: 33.3%;
+    float: left;
+  }
+  
+  .map-image {
+    width: 100%;
+  }
+  
+  .contact-form-container {
+    background-color: #eaeaea;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  .tile-content {
+    padding: 20px 40px;
+  }
+  
+  .tile-content .contact-row {
+    margin-bottom: 20px;
+  }
+  
+  .tile-field {
+    margin-left: 20px;
+  }
+  
+  .form-field {
+    width: 100%;
+    padding: 10px 8px;
+      border-radius: 4px;
+      border: #d9d8d8 1px solid;
+  }
+  
+  .button {
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #08a9df, #12054a);
+    border: 0px;
+  }
+  
+  #menu-icon {
+    display: none;
+    float: right;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .footer-column {
+      width: 50%;
+    }
+    .contact-form-container {
+      width: 100%;
+    }
+    .footer {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    #header-right-menu {
+      float: none;
+      display: none;
+    }
+    #header-right-menu a {
+      display: block;
+    }
+    .heading {
+      padding: 0px;
+    }
+    .tile-content {
+        padding: 0px 20px;
+    }
+  
+    .footer-column {
+      width: 100%;
+    }
+    
+    #menu-icon {
+      display: block;
+      float: right;
+    }
+  } */

@@ -7,7 +7,7 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .empty-div {
@@ -18,7 +18,7 @@
   text-align: center;
   /* padding: 20px; */
   margin-bottom: 20px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .row1 {

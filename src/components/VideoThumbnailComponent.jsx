@@ -62,7 +62,7 @@ const VideoThumbnailComponent = () => {
             padding: "80px",
           }}
         >
-          <div className="empty-div">
+          <div className="empty-div" >
             <h2 className="gradient-text header-container">Webinar</h2>
           </div>
           <div
@@ -104,16 +104,21 @@ const VideoThumbnailComponent = () => {
         </div>
       </div>
       <div className="row">
-        <div className="empty-div">
+        {/* <div className="empty-div" style={{border: '2px solid red'}}>
           <h2 className="gradient-text header-container" style={{border: '1px solid black'}}>Podcast</h2>
+        </div> */}
+
+        <div className="empty-div1">
+        <h1 className="gradient-text header-container text-center" s>Podcast</h1>
         </div>
-        <div className="col">
+        <div className="col" >
           <div
             className="col"
             style={{
               alignItems: "center",
               display: "flex",
               flexDirection: "column",
+              // border: '2px solid blue',
               // padding: "40px",
             }}
           >
@@ -146,6 +151,7 @@ const VideoThumbnailComponent = () => {
               Video Description
               </p> */}
             </div>
+            
             <h4
               style={{
                 textAlign: "start",

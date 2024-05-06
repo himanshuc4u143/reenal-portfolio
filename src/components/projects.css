@@ -91,3 +91,11 @@
     padding: 20px; /* Add padding for spacing */
     margin-bottom: 20px; /* Add margin below the content */
   }
+
+  .btn-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* right: 0; */
+    /* padding: 20px; */
+  }

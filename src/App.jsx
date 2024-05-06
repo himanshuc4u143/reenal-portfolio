@@ -6,7 +6,7 @@ import Navbar from "./components/navbar";
 
 import About from "./components/About";
 import EnquiryForm from "./components/EnquiryForm";
-import HorizontalChart from "./components/BarChart";
+// import HorizontalChart from "./components/BarChart";
 import Footer from "./components/Footer";
 import BlogsPage from "./components/BlogsPage";
 import RecommendationsPage from "./components/RecommendationsPage";
@@ -31,26 +31,24 @@ function App() {
         
         {/* <About /> */}
         <AboutMe/>
-        {/* <HorizontalChart/> */}
+        
         {/* <Carousel /> */}
         <ProgressBar /> 
         <div className="content">
           {" "}
           {/* Add a container for the Projects section */}
-          {/* <Carousel /> */}
+          
           
           <ProjectsHomepage />
           <BlogsHomePage />
           <RecommendationsPage />
           <SuccessStory/>
-          {/* <VerticalCarousel data={data.slides} leadingText={data.leadingText} /> */}
-          {/* <Hobbies/> */}
-          {/* <Books/> */}
+          
         </div>
         <div>
           <VideoThumbnailComponent />
         </div>
-        {/* <VerticalCarousel data={data.slides} leadingText={data.leadingText} /> */}
+        
         <EnquiryForm />
       </div>
       <Footer />
