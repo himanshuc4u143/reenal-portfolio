@@ -80,38 +80,29 @@ function CustomCircularProgress({ value, skillName }) {
 }
 
 const skills = [
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "React",
-  "Redux",
-  "Node.js",
-  "Express.js",
+  
+
   "MongoDB",
   "SQL",
-  "Python",
   "Django",
   "Flask",
-  "Java",
-  "C#",
-  ".NET",
-  "Swift",
-  "iOS Development",
-  "Android Development",
-  // "Kotlin",
-  // "JavaFX",
-  // "Git",
-  // "GitHub",
+   "GitHub",
   // "Bitbucket",
   // "Docker",
   // " AWS",
-  // "Azure",
+   "Azure",
   // "CI/CD",
-  // "Agile",
+   "Agile",
+   "Neural Networks",
+   "Deep Learning",
+   "CNN",
+   "Project Scoping",
+   "Team Management",
+   "MLflow",
+   "Rest API"
   // "Scrum",
   // "TDD",
 ];
-
 function ProgressBar() {
   return (
     <MDBContainer fluid>
@@ -141,7 +132,7 @@ function ProgressBar() {
               justifyContent: "space-between",
             }}
           >
-            <h6>Skills</h6>
+            {/*<h6>Skills</h6>*/}
             <ul style={{ listStyleType: "square", paddingLeft: "20px" }}>
               {skills.map((skill, index) => (
                 <li key={index}>
@@ -163,7 +154,7 @@ function ProgressBar() {
             }}
           >
             <div className="linearDiv hover-shadow rounded-2 hover-overlay hover-zoom">
-              <h6>Sklearn</h6>
+              <h6>Python</h6>
               <MDBProgress height="20" style={{ border: "2px solid brown" }} className="">
                 <MDBProgressBar
                   striped
@@ -177,7 +168,7 @@ function ProgressBar() {
               </MDBProgress>
             </div>
             <div className="linearDiv hover-shadow rounded-2">
-              <h6>NumPy</h6>
+              <h6>Pandas</h6>
               <MDBProgress height="20" style={{ border: "2px solid brown" }}>
                 <MDBProgressBar
                   striped
@@ -196,25 +187,25 @@ function ProgressBar() {
                 <MDBProgressBar
                   striped
                   animated
-                  width="90" // Increased width to occupy the whole column
+                  width="50" // Increased width to occupy the whole column
                   valuemin={0}
                   valuemax={100}
                 >
-                  90%
+                  50%
                 </MDBProgressBar>
               </MDBProgress>
             </div>
             <div className="linearDiv hover-shadow rounded-2">
-              <h6>PyTest</h6>
+              <h6>MLOps</h6>
               <MDBProgress height="20" style={{ border: "2px solid brown" }}>
                 <MDBProgressBar
                   striped
                   animated
-                  width="60" // Increased width to occupy the whole column
+                  width="70" // Increased width to occupy the whole column
                   valuemin={0}
                   valuemax={100}
                 >
-                  60%
+                  70%
                 </MDBProgressBar>
               </MDBProgress>
             </div>
@@ -274,24 +265,7 @@ function ProgressBar() {
                 </MDBProgressBar>
               </MDBProgress>
             </div> */}
-            <div style={{width: 'fit-content'}}>
-            <ul className="hover-shadow rounded-2" style={{ listStyleType: "square", paddingLeft: "20px" }}>
-              
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-              
-            </ul>
-            </div>
+         
           </div>
 
           
@@ -310,31 +284,14 @@ function ProgressBar() {
               <h6>TensorFlow</h6>
             </div>
             <div className="circleDiv hover-shadow rounded-4">
-              <CustomCircularProgress value={50} skillName="PyTest" />
-              <h6>PyTest</h6>
+              <CustomCircularProgress value={70} skillName="AWS" />
+              <h6>AWS</h6>
             </div>
             <div className="circleDiv hover-shadow rounded-4">
-              <CustomCircularProgress value={30} skillName="Transformers" />
-              <h6>Transformers</h6>
+              <CustomCircularProgress value={80} skillName="ML Algorithms" />
+              <h6>ML Algorithms</h6>
             </div>
-            <div className="" style={{width: 'fit-content'}}>
-            <ul className="hover-shadow rounded-4" style={{ listStyleType: "square", paddingLeft: "20px" }}>
-              
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                {/* <li>
-                  <h4>Java</h4>
-                </li> */}
-              
-            </ul>
-            </div>
+            
           </div>
           {/* Gauges */}
           <div
@@ -349,7 +306,7 @@ function ProgressBar() {
                 height={150}
                 startAngle={-110}
                 endAngle={110}
-                value={50}
+                value={70}
               >
                 <GaugeReferenceArc />
                 <GaugeValueArc />
@@ -379,32 +336,15 @@ function ProgressBar() {
                 height={150}
                 startAngle={-110}
                 endAngle={110}
-                value={90}
+                value={75}
               >
                 <GaugeReferenceArc />
                 <GaugeValueArc />
-                <GaugePointer skillName="Streamlit" />
+                <GaugePointer skillName="Docker" />
               </GaugeContainer>
-              <h6>Streamlit</h6>
+              <h6>Docker</h6>
             </div>
-            <div className="hover-shadow rounded-3" style={{width: 'fit-content'}}>
-            <ul style={{ listStyleType: "square", paddingLeft: "20px" }}>
-              
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-                <li>
-                  <h4>Java</h4>
-                </li>
-              
-            </ul>
-            </div>
+     
           </div>
         </div>
       </div>
