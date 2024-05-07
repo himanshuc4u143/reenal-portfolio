@@ -37,7 +37,6 @@ const BlogsHomePage = () => {
             <p key={index}>{paragraph}</p>
           ))}
         />
-
         ))}
       </div>
     </div>

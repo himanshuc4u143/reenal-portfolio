@@ -53,16 +53,18 @@ const BlogsPage = () => {
           >
             Blogs
           </h1>
-          <div className="blogs-list">
-            {blogs.map((blog) => (
-              <Blog
-                key={blog.id}
-                title={blog.title}
-                date={blog.date}
-                author={blog.author}
-                content={blog.content}
-              />
-            ))}
+          <div className="blogs-list">  
+        {blogs.map(blog => (
+          <Blog
+          key={blog.id}
+          title={blog.title}
+          date={blog.date}
+          author={blog.author}
+          content={blog.content.split('<br /><br />').map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        />
+        ))}
           </div>
         </div>
       </div>
