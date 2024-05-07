@@ -7,15 +7,14 @@
   align-items: flex-start;
   justify-content: space-around;
   height: 10vh;
-  background-color: navy;
-  color: grey;
+  background-color: rgba(253, 237, 142, 0.904);
   /* margin-left: -250px; */
   z-index: 2;
-  background: transparent;
+  /* background: transparent; */
 }
 
 .nav:hover {
-  color: blue;
+  color: goldenrod;
 }
 
 .nav_menu {
@@ -39,11 +38,18 @@
 }
 
 .App-logo {
-  height: 50px;
-  margin-right: 10px;
-  margin-left: 10px;
+  position: absolute;
+  height: 100px;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 5px;
+  left: 0;
+  top: 0;
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
   pointer-events: none;
   transition: filter 0.3s ease; /* Transition for hover effect */
+  /* border: 2px solid red; */
 }
 
 .navbar-brand {

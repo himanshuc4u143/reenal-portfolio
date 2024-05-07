@@ -81,9 +81,9 @@
   
   @keyframes glowing-shadow {
     0% {
-      box-shadow: 0 0 10px 5px #61dafb; /* Initial shadow */
+      box-shadow: 0 0 10px 5px #D8BC70; /* Initial shadow */
     }
     100% {
-      box-shadow: 0 0 20px 10px #61dafb; /* Glowing shadow */
+      box-shadow: 0 0 20px 10px #D8BC70; /* Glowing shadow */
     }
   }

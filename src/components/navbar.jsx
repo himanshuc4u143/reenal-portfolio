@@ -2,17 +2,24 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-//import logo from '../hlogo.png';
+import logo from '../images/Logo/output-onlinepngtools.png';
+import logo1 from '../images/Logo/logo_cropped.png'
 
 function Navbar() {
   
   return (
     // <nav className="navbar navbar-expand-lg navbar-dark bg-transparent nav">
-    <nav className="navbar navbar-expand-lg navbar-light nav">
-      <div className="container-fluid">
-        <a className="navbar-brand nav-link" href="#home">
-          {/* <img src={logo} alt="Logo" className="logo App-logo" /> */}
-          My Portfolio
+    <nav className="navbar navbar-expand-lg navbar-light nav" 
+    // style={{paddingTop: '0'}}
+    >
+      <div className="container-fluid" 
+      // style={{ padding: '0'}}
+      >
+        <a className="navbar-brand nav-link" href="#home" 
+        // style={{padding: '0', margin: '0'}}
+        >
+          <img src={logo1} alt="Logo" className="logo App-logo" />
+          {/* My Portfolio */}
         </a>
         <button className="navbar-toggler hover-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
