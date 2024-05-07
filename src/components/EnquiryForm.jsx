@@ -57,7 +57,8 @@ function EnquiryForm() {
           <div
             className="row justify-content-center"
             style={{
-              backgroundColor: "whitesmoke",
+              //backgroundColor: "whitesmoke",
+              backgroundColor: "rgba(253, 237, 142, 0.904)",
               padding: "0px",
               borderRadius: "10px",
               margin: "0px",
@@ -73,7 +74,8 @@ function EnquiryForm() {
                 style={{
                   // height: "600px", width: "500px",
                   // border: '2px solid red',
-                  backgroundColor: "whitesmoke",
+                  //backgroundColor: "whitesmoke",
+                  backgroundColor: "rgba(253, 237, 142, 0.904)",
                 }}
               >
                 {/* <img
