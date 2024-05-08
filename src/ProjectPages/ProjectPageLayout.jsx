@@ -51,7 +51,7 @@ const ProjectPageLayout = ({
             </div>
             <img
               style={{ width: "900px", height: "600px", paddingBottom: '30px' }}
-              src={assert}
+              src={imageUrl}
               alt="assert"
             />
             <p className="par-content"><h4>Description: </h4>{description}</p><hr />

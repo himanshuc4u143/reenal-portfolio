@@ -3,7 +3,10 @@
 }
 
 .img-div {
-  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp');
+  /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp'); */
+  background-image: url('../images/contactUs1.png');
+  display: inline-flexbox;
+  align-items: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 10px;
@@ -31,9 +34,14 @@
   }
 
   .form-control {
-    background-color: transparent;
+    background-color: white;
+    border: 1px solid black;
+    /* color: black; */
   }
   
+  .form-label{
+    color: black;
+  }
   /* /////////////////////////////// */
 /* 
   body {

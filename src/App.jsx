@@ -14,11 +14,11 @@ import VideoThumbnailComponent from "./components/VideoThumbnailComponent";
 // import Hobbies from './components/Hobbies';
 import Carousel from "./components/Carousel";
 import ProjectsHomepage from "./components/ProjectsHomepage";
-import ProgressBar from "./components/ProgressBar";
 import SuccessStory from './components/SuccessStory';
 import Home from './components/Home';
 import AboutMe from "./components/AboutMe";
 import BlogsHomePage from "./components/BlogsHomePage";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -33,7 +33,8 @@ function App() {
         <AboutMe/>
         
         {/* <Carousel /> */}
-        <ProgressBar /> 
+        
+        <TechStack/>
         <div className="content">
           {" "}
           {/* Add a container for the Projects section */}

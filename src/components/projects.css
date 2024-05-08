@@ -23,6 +23,7 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    background-color: #ffefc3;
   }
   
   .card1:hover {
@@ -71,14 +72,16 @@
     color: #555;
   }
   
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
+  /* .btn-primary {
+    background-color: #bb9429;
+  color: black;
+  border-color: black;
+  } */
   
   .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #ffc219;
+    border-color: black;
+    color: black;
   }
   
   
@@ -99,3 +102,13 @@
     /* right: 0; */
     /* padding: 20px; */
   }
+
+  /* .button {
+  background-color: #bb9429;
+  color: black;
+} */
+.button {
+  background-color: #bb9429;
+color: black;
+border-color: black;
+}

@@ -1,89 +1,89 @@
 
 .main-container {
-    /* border: 2px solid black; */
-    /* background-color: white; */
+  /* border: 2px solid black; */
+  /* background-color: white; */
 }
 
 
 
 .myCol {
-    /* border: 2px solid red; */
-    /* background-color: cornsilk; */
-    background-repeat: no-repeat;
-    /* background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif); */
-    /* background-position: cover.0; */
-    
+  /* border: 2px solid red; */
+  /* background-color: cornsilk; */
+  background-repeat: no-repeat;
+  /* background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif); */
+  /* background-position: cover.0; */
+  
 }
 
 /* .foregroundImg {
-    background-color: blueviolet;
-    border-radius: 36% 64% 36% 64% / 72% 51% 49% 28%;
-    position: relative;
-    height: 50%;
-    width: 50%;
+  background-color: blueviolet;
+  border-radius: 36% 64% 36% 64% / 72% 51% 49% 28%;
+  position: relative;
+  height: 50%;
+  width: 50%;
 }
 
 .backgroundImg {
-    position: absolute;
+  position: absolute;
 } */
 
 
 /* body {
-    background: #000;
-  } */
-  
-  .wrap {
-    /* top: 100%; */
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    /* height: 100vh; */
-  }
-  
-  .circle {
-    /* background: plum; */
-    width: 500px;
-    height: 500px;
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-    overflow: hidden;
-    animation: morph 3s linear infinite;
-    position: relative;
-  }
+  background: #000;
+} */
 
-  .circle::before {
-    content: ''; /* Required for pseudo-elements */
-    position: absolute; /* Position absolute to overlay the image */
-    top: -2%;
-    left: -2%;
-    width: 100%;
-    height: 100%;
-    /* overflow: visible; */
-    border-radius: inherit; /* Inherit border-radius from parent */
-    /*background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
-    animation: glowing-shadow 3s linear infinite; /* Glowing animation */
+.wrap {
+  /* top: 100%; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* height: 100vh; */
+}
+
+.circle {
+  /* background: plum; */
+  width: 500px;
+  height: 500px;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  overflow: hidden;
+  animation: morph 3s linear infinite;
+  position: relative;
+}
+
+.circle::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute; /* Position absolute to overlay the image */
+  top: -2%;
+  left: -2%;
+  width: 100%;
+  height: 100%;
+  /* overflow: visible; */
+  border-radius: inherit; /* Inherit border-radius from parent */
+  /*background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
+  animation: glowing-shadow 3s linear infinite; /* Glowing animation */
+}
+
+.circle img {
+  width: 100%;
+}
+
+@keyframes morph {
+  0%, 100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
   }
-  
-  .circle img {
-    width: 100%;
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
   }
-  
-  @keyframes morph {
-    0%, 100% {
-      border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-    }
-    34% {
-      border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-    }
-    67% {
-      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
   }
-  
-  @keyframes glowing-shadow {
-    0% {
-      box-shadow: 0 0 10px 5px #D8BC70; /* Initial shadow */
-    }
-    100% {
-      box-shadow: 0 0 20px 10px #D8BC70; /* Glowing shadow */
-    }
+}
+
+@keyframes glowing-shadow {
+  0% {
+    box-shadow: 0 0 10px 5px #bb9429; /* Initial shadow */
   }
+  100% {
+    box-shadow: 0 0 20px 10px #bb9429; /* Glowing shadow */
+  }
+}

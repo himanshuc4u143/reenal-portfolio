@@ -10,7 +10,7 @@ import skin from "../images/skin.webp";
 import alistair from "../images/alistair_project.png";
 import cotton from "../images/cotton.jpg";
 import cotton1 from '../images/cotton1.png'
-
+import './projects.css'
 //import DefaultLayout from '../Layout/DefaultLayout';
 import { Link } from "react-router-dom";
 
@@ -46,7 +46,7 @@ function ProjectsHomepage() {
                 {/*<Link className="nav-link" aria-current="page" to="/projects/1">About</Link>*/}
                 <div className="btn-bottom" style={{padding: '20px'}}>
                 <button
-                  className="btn btn-primary "
+                  className="btn btn-primary button "
                   onClick={() => (window.location.href = "/projects/1")}
                   style={{marginTop: 'auto', marginLeft: 'auto'}}
                 >
@@ -82,7 +82,7 @@ function ProjectsHomepage() {
                 {/* <a href="/projects/2" className="btn btn-primary">See More</a> */}
                 <div className="btn-bottom" style={{padding: '20px'}}>
                 <button
-                  className="btn btn-primary"
+                  className="button btn btn-primary"
                   onClick={() => (window.location.href = "/projects/2")}
                 >
                   See More
@@ -100,8 +100,8 @@ function ProjectsHomepage() {
                   Detect melanoma skin using image (Image segmentation) using
                   Unet model
                 </p>
-                <div className="btn-bottom" style={{padding: '20px'}}>
-                <a href="#" className="btn btn-primary">
+                <div className="btn-bottom " style={{padding: '20px'}}>
+                <a href="#" className="btn btn-primary button">
                   See More
                 </a>
                 </div>
@@ -120,7 +120,7 @@ function ProjectsHomepage() {
                 </p>
                 <div className="btn-bottom" style={{padding: '20px'}}>
                 
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary button">
                   See More
                 </a>
                 </div>
@@ -138,7 +138,7 @@ function ProjectsHomepage() {
                   </p>
                   <div className="btn-bottom" style={{padding: '20px'}}>
                 
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary button">
                   See More
                 </a>
                 </div>

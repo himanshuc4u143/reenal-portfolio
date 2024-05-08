@@ -6,9 +6,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  height: 10vh;
+  height: 10vh; /* Using vh for responsive height */
   background-color: rgba(253, 237, 142, 0.904);
-  
+  /* background-color: #bb9429; */
   /* margin-left: -250px; */
   z-index: 2;
   /* background: transparent; */
@@ -22,11 +22,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* font-size: 22.5px; */
-  font-size: 30px;
+  font-size: 2.12vw; /* Using vw for responsive font size */
   font-family: 'Times New Roman', Times, serif;
   flex-grow: 1;
-  gap: 3rem;
+  gap: 2rem; /* Adjust gap as needed */
   justify-content: center;
 }
 
@@ -40,22 +39,18 @@
 
 .App-logo {
   position: absolute;
-  height: 100px;
+  height: 110%;
   margin: 0;
-  padding-left: 10px;
-  padding-top: 5px;
+  padding-left: 0.7vw; /* Using vw for responsive padding */
+  padding-top: 1vh; /* Using vh for responsive padding */
   left: 0;
   top: 0;
-  /* margin-right: 10px; */
-  /* margin-left: 10px; */
   pointer-events: none;
-  transition: filter 0.3s ease; /* Transition for hover effect */
-  /* border: 2px solid red; */
+  transition: filter 0.3s ease;
 }
 
 .navbar-brand {
   color: black;
-  /* margin-right: -800px; */
   transition: color 0.3s ease;
 }
 

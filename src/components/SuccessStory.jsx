@@ -59,9 +59,7 @@ export default function SuccessStory() {
         className="d-flex align-items-start bg-body-tertiary mb-3"
         id="parentDiv"
         style={{
-          border: "15px solid transparent",
-          borderImage:
-            "linear-gradient(45deg, #800080, #87ceeb, #8a2be2, #00ffff) 1",
+          border: "10px solid black",
           borderRadius: "10px",
           borderImageSlice: "10", // Adjust the radius to match the borderRadius
           margin: "10px",
@@ -86,10 +84,10 @@ export default function SuccessStory() {
           </style>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -110,10 +108,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -129,10 +127,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -149,10 +147,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -170,10 +168,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
-              // backgroundColor: "white",
-              marginBottom: "4px",
+              // backgroundColor: "#38b6ff",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -189,10 +187,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -209,10 +207,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -240,10 +238,10 @@ export default function SuccessStory() {
           </div>
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
             }}
           >
             <center>
@@ -279,10 +277,11 @@ export default function SuccessStory() {
 
           <div
             style={{
-              border: "10px solid #0091e6",
+              border: "5px solid #bb9429",
               borderRadius: "4px",
               // backgroundColor: "#38b6ff",
-              marginBottom: "4px",
+              // marginBottom: "4px",
+              
             }}
           >
             <center>

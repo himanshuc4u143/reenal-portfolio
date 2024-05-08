@@ -47,3 +47,14 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
   }
+
+  .MDBProgressBar{
+    background-color: #D8BC70;
+  }
+
+  .MDBProgress{
+    border: 1px solid black;
+    height: 20;
+  }
+
+  .animated {}

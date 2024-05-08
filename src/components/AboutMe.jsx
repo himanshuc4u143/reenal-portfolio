@@ -28,7 +28,7 @@ export default function AboutMe() {
               <header className="header-container">
                 <h1 className="black-bold">
                   Hello, I’m{" "}
-                  <span className="red-text" style={{ color: "#D8BC70" }}>
+                  <span className="red-text" style={{ color: "#bb9429" }}>
                     Reenal.
                   </span>
                 </h1>

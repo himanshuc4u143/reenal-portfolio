@@ -58,7 +58,7 @@ function EnquiryForm() {
             className="row justify-content-center"
             style={{
               //backgroundColor: "whitesmoke",
-              backgroundColor: "rgba(253, 237, 142, 0.904)",
+              backgroundColor: "#ffefc3",
               padding: "0px",
               borderRadius: "10px",
               margin: "0px",
@@ -66,7 +66,7 @@ function EnquiryForm() {
             }}
           >
             <div
-              className="col-md-5 img-div"
+              className="col-md-6 img-div"
               // style={{ border: "2px solid black" }}
             >
               <div
@@ -75,7 +75,7 @@ function EnquiryForm() {
                   // height: "600px", width: "500px",
                   // border: '2px solid red',
                   //backgroundColor: "whitesmoke",
-                  backgroundColor: "rgba(253, 237, 142, 0.904)",
+                  backgroundColor: "#ffefc3",
                 }}
               >
                 {/* <img
@@ -91,9 +91,9 @@ function EnquiryForm() {
             </div>
 
             <div
-              className="col-md-7 mb-5"
+              className="col-md-6 mb-5"
               style={{
-                backgroundColor: "whitesmoke",
+                backgroundColor: '#ffefc3',
                 borderTopRightRadius: "10px",
                 borderBottomRightRadius: "10px",
               }}
@@ -102,32 +102,32 @@ function EnquiryForm() {
                 className="formCol"
                 style={{
                   // background: 'violet',
-                  paddingTop: "60px",
+                  paddingTop: "10px",
                   // borderRadius: '11% 89% 95% 5% / 13% 100% 0% 87%'
                 }}
               >
                 {/* <h6 className="gradient-text bold">Lets Say Hii!!!</h6>
             <h2>Connect Me.</h2> */}
-                <div className="row g-0">
+                <div className="row g-0" >
                   <div className="col-1">
                     <div
                       style={{ padding: "5px" }}
                       dangerouslySetInnerHTML={{ __html: whatsappSVGString }}
                     ></div>
                   </div>
-                  <div className="col-4" style={{ padding: "10px" }}>
+                  <div className="col-4" style={{ padding: "10px", paddingLeft: '20px' }}>
                     <h5>(+46)-734945657</h5>
                   </div>
                 </div>
-                <div className="row g-1">
-                  <div className="col-1">
-                    <div
+                <div className="row g-0" >
+                  <div className="col-1" >
+                    <div style={{ display: 'cover'}}
                       dangerouslySetInnerHTML={{ __html: mailSVGString }}
                     ></div>
                   </div>
                   <div
-                    className="col-4"
-                    style={{ padding: "5px", paddingLeft: "10px" }}
+                    className="col-5"
+                    style={{ padding: "5px", paddingLeft: "20px" }}
                   >
                     <h5>
                       {" "}
@@ -137,7 +137,7 @@ function EnquiryForm() {
                     </h5>
                   </div>
                 </div>
-                <div className="mb-3">
+                <div className="mb-3" style={{paddingTop: '10px'}}>
                   <label htmlFor="nameInput" className="form-label">
                     Name
                   </label>
@@ -190,7 +190,7 @@ function EnquiryForm() {
                     className=""
                     // style={{paddingLeft: '50px'}}
                   >
-                    <button className="btn btn-primary btn-lg" type="submit">
+                    <button className="btn btn-primary btn-lg button" type="submit">
                       Submit
                     </button>
                   </div>
@@ -206,64 +206,3 @@ function EnquiryForm() {
 
 export default EnquiryForm;
 
-// import React, { useState } from 'react';
-// import './styles.css';
-
-// export default function EnquiryForm() {
-//     const [menuVisible, setMenuVisible] = useState(false);
-
-//     const toggleMenu = () => {
-//         setMenuVisible(!menuVisible);
-//     };
-
-//     return (
-//         <div className="container">
-//             <div className="site-banner">
-//                 {/* <div className="header-menu">
-//                     <a href="/">Logo</a>
-//                     <span id="menu-icon" onClick={toggleMenu}><img src="images/menu.svg" alt="Menu Icon" /></span>
-//                     <span id="header-right-menu" style={{ display: menuVisible ? 'block' : 'none' }}>
-//                         <a href="#">Our work</a>
-//                         <a href="#">About</a>
-//                         <a href="#">News</a>
-//                         <a href="#" className="header-active">Contact</a>
-//                     </span>
-//                 </div> */}
-//                 <h1 className="heading gradient-text">Contact Us</h1>
-//             </div>
-//             <div className="footer">
-//                 <div className="footer-column"><img className="map-image" src="images/location.jpg" alt="Location" /></div>
-//                 <div className="footer-column">
-//                     <div className="tile-content">
-//                         <h1>Meet Us</h1>
-//                         <div className="contact-row">
-//                             <img src="https://toppng.com/uploads/preview/file-svg-call-us-icon-11563643987fxm6xporhl.png" alt="Phone Icon" /><span className="tile-field">+466723723666</span>
-//                         </div>
-//                         <div className="contact-row">
-//                             <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email Icon" /><span className="tile-field">contact@admin.com</span>
-//                         </div>
-//                         <div className="contact-row">
-//                             <img src="https://i.pinimg.com/474x/f0/10/a2/f010a22e408216896d7e5c2b2aebc1fc.jpg" alt="Location Icon" /><span className="tile-field">1784 Griffin Street, Alabama</span>
-//                         </div>
-//                     </div>
-//                 </div>
-//                 <div className="footer-column contact-form-container">
-//                     <div className="tile-content">
-//                         <form method="POST">
-//                             <h1>Contact</h1>
-//                             <div className="contact-row">
-//                                 <input type="text" className="form-field" placeholder="Name" />
-//                             </div>
-//                             <div className="contact-row">
-//                                 <textarea rows="5" className="form-field" placeholder="Message"></textarea>
-//                             </div>
-//                             <button type="submit" className="button">Send</button>
-//                         </form>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
-
-// // export default ContactPage;

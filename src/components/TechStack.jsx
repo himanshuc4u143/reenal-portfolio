@@ -8,7 +8,7 @@ import {
   GaugeReferenceArc,
   useGaugeState,
 } from "@mui/x-charts/Gauge";
-import "./progressBar.css";
+import "./techStack.css";
 
 function GaugePointer({ skillName }) {
   const { valueAngle, outerRadius, cx, cy } = useGaugeState();
@@ -64,12 +64,12 @@ function CustomCircularProgress({ value, skillName }) {
         cx={size / 2}
         cy={size / 2}
         r={radius}
-        stroke="blue"
+        stroke="#D8BC70"
         strokeWidth={strokeWidth}
         strokeDasharray={circumference}
         style={{
           strokeDashoffset: offset,
-          transition: "stroke-dashoffset 0.5s ease-in-out",
+          transition: "stroke-dashoffset 1s ease-in-out",
         }}
       />
       <text x={size / 2} y={size / 2} textAnchor="middle" fill="black">
@@ -80,30 +80,28 @@ function CustomCircularProgress({ value, skillName }) {
 }
 
 const skills = [
-  
-
   "MongoDB",
   "SQL",
   "Django",
   "Flask",
-   "GitHub",
+  "GitHub",
   // "Bitbucket",
   // "Docker",
   // " AWS",
-   "Azure",
+  "Azure",
   // "CI/CD",
-   "Agile",
-   "Neural Networks",
-   "Deep Learning",
-   "CNN",
-   "Project Scoping",
-   "Team Management",
-   "MLflow",
-   "Rest API"
+  "Agile",
+  "Neural Networks",
+  "Deep Learning",
+  "CNN",
+  "Project Scoping",
+  "Team Management",
+  "MLflow",
+  "Rest API",
   // "Scrum",
   // "TDD",
 ];
-function ProgressBar() {
+function TechStack() {
   return (
     <MDBContainer fluid>
       <div className="">
@@ -124,7 +122,7 @@ function ProgressBar() {
             style={{
               // border: "2px solid blue",
               padding: "10px",
-              paddingLeft: '50px',
+              paddingLeft: "50px",
               // display: "flex",
               flexDirection: "column",
               // textAlign: 'center',
@@ -155,13 +153,15 @@ function ProgressBar() {
           >
             <div className="linearDiv hover-shadow rounded-2 hover-overlay hover-zoom">
               <h6>Python</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }} className="">
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="80" // Increased width to occupy the whole column
                   valuemin={0}
                   valuemax={100}
+                  // style={{ backgroundColor: "#D8BC70" }} // Change the color to green
                 >
                   80%
                 </MDBProgressBar>
@@ -169,8 +169,9 @@ function ProgressBar() {
             </div>
             <div className="linearDiv hover-shadow rounded-2">
               <h6>Pandas</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="70" // Increased width to occupy the whole column
@@ -183,8 +184,9 @@ function ProgressBar() {
             </div>
             <div className="linearDiv hover-shadow rounded-2">
               <h6>Open CV</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="50" // Increased width to occupy the whole column
@@ -197,8 +199,9 @@ function ProgressBar() {
             </div>
             <div className="linearDiv hover-shadow rounded-2">
               <h6>MLOps</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="70" // Increased width to occupy the whole column
@@ -211,8 +214,9 @@ function ProgressBar() {
             </div>
             <div className="linearDiv hover-shadow rounded-2">
               <h6>Sklearn</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="80" // Increased width to occupy the whole column
@@ -223,10 +227,14 @@ function ProgressBar() {
                 </MDBProgressBar>
               </MDBProgress>
             </div>
-            <div className="linearDiv hover-shadow rounded-2" style={{paddingBottom: '50px'}}>
+            <div
+              className="linearDiv hover-shadow rounded-2"
+              style={{ paddingBottom: "50px" }}
+            >
               <h6>NumPy</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className="MDBProgress">
                 <MDBProgressBar
+                  className="MDBProgressBar"
                   striped
                   animated
                   width="70" // Increased width to occupy the whole column
@@ -239,7 +247,7 @@ function ProgressBar() {
             </div>
             {/* <div className="linearDiv hover-shadow rounded-2">
               <h6>Open CV</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className='MDBProgress'    >
                 <MDBProgressBar
                   striped
                   animated
@@ -253,7 +261,7 @@ function ProgressBar() {
             </div>
             <div className="linearDiv hover-shadow rounded-2">
               <h6>PyTest</h6>
-              <MDBProgress height="20" style={{ border: "2px solid brown" }}>
+              <MDBProgress className='MDBProgress'    >
                 <MDBProgressBar
                   striped
                   animated
@@ -265,21 +273,17 @@ function ProgressBar() {
                 </MDBProgressBar>
               </MDBProgress>
             </div> */}
-         
           </div>
 
-          
           {/* Circular Progress Bars */}
-          <div
-            className="col-2"
-            style={{ padding: "10px"}}
-          >
+          <div className="col-2" style={{ padding: "10px" }}>
             <div className="circleDiv hover-shadow rounded-4">
               <CustomCircularProgress
                 value={80}
                 skillName="TensorFlow"
                 // width={150}
                 // height={150}
+                style={{ border: '2px solid black'}}
               />
               <h6>TensorFlow</h6>
             </div>
@@ -291,13 +295,9 @@ function ProgressBar() {
               <CustomCircularProgress value={80} skillName="ML Algorithms" />
               <h6>ML Algorithms</h6>
             </div>
-            
           </div>
           {/* Gauges */}
-          <div
-            className="col-2"
-            style={{ padding: "10px" }}
-          >
+          <div className="col-2" style={{ padding: "10px" }}>
             <div className="gaugeDiv hover-shadow rounded-3">
               <GaugeContainer
                 style={{ padding: "0px" }}
@@ -329,7 +329,10 @@ function ProgressBar() {
               </GaugeContainer>
               <h6>Flask</h6>
             </div>
-            <div className="gaugeDiv hover-shadow rounded-3" style={{paddingBottom: '30px'}}>
+            <div
+              className="gaugeDiv hover-shadow rounded-3"
+              style={{ paddingBottom: "30px" }}
+            >
               <GaugeContainer
                 className="animated"
                 width={150}
@@ -344,7 +347,6 @@ function ProgressBar() {
               </GaugeContainer>
               <h6>Docker</h6>
             </div>
-     
           </div>
         </div>
       </div>
@@ -352,4 +354,4 @@ function ProgressBar() {
   );
 }
 
-export default ProgressBar;
+export default TechStack;
