@@ -159,8 +159,7 @@ function Books() {
             <h3 className="black-bold">Some of My Recent readings</h3>
           </header>
           <p className="par-content">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
+          Exploring worlds within pages, one story at a time – discover literary treasures on my personal bookshelf
           </p>
           </div>
 
