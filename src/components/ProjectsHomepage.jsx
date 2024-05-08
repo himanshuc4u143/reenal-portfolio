@@ -40,7 +40,7 @@ function ProjectsHomepage() {
                   </a>
                 </h5>
                 <p className="card-text">
-                  The objective is to predict person child T1D or not.
+                The objective is to get the probability of a child developing Type 1 diabetes within specific age intervals
                 </p>
                 {/* <a href="/projects/1" className="btn btn-primary">See More</a> */}
                 {/*<Link className="nav-link" aria-current="page" to="/projects/1">About</Link>*/}

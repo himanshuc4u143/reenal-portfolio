@@ -2,8 +2,8 @@ import React from 'react';
 import ProjectPageLayout from './ProjectPageLayout';
 import DefaultLayout from '../Layout/DefaultLayout';
 import assert from "../images/assert.jpg";
-//import gita from "../images/geeta.jpg";
-import gita from '../images/gita.png'
+import gita from "../images/geeta.jpg";
+//import gita from '../images/gita.png'
 //import skin from '../images/skin.png'
 import skin from "../images/skin.webp";
 import alistair from "../images/alistair_project.png";
@@ -61,7 +61,28 @@ const projects = [
     githubLink: "",
     description: "The primary aim of our project is to revolutionize agricultural practices by leveraging deep learning techniques, specifically utilizing the ResNet-50 architecture, to address the critical issue of plant disease detection. Agriculture, being the backbone of our society, faces numerous challenges, with plant diseases posing a significant threat to crop yield, quality, and ultimately, food security. Our project endeavors to empower farmers with an advanced tool that can accurately identify plant diseases, thereby enabling timely intervention and management strategies.The primary aim of our project is to revolutionize agricultural practices by leveraging deep learning techniques, specifically utilizing the ResNet-50 architecture, to address the critical issue of plant disease detection. Agriculture, being the backbone of our society, faces numerous challenges, with plant diseases posing a significant threat to crop yield, quality, and ultimately, food security. Our project endeavors to empower farmers with an advanced tool that can accurately identify plant diseases, thereby enabling timely intervention and management strategies",
     otherInfo: "Python, NumPy,AWS,Docker,Pandas, seaborn, Scikit-Learn, Keras,tensorflow, Tensorbord, Matplotlib, MLflow, Flask "
-  }
+  },
+  {
+    id: "6",
+    title: "False Alarm Detection System",
+    oneLinerDescription: "Detect false alram for H2S gas leak which is hazardous to health.",
+    liveDemo: "",
+    imageUrl: "",
+    githubLink: "https://github.com/reenal/false-alarm",
+    description: "This project was made for a chemical industry which had sensors installed in various parts of the factory to detect H2S gas which is hazardous to health. This project was made for a chemical industry which had sensors installed in various parts of the factory to detect H2S gas which is hazardous to health.A few of the alarms that ring are not even hazardous, the company gave us the data for each alarm with final column stating the alarm was dangerous or not",
+    otherInfo: "Python, NumPy,AWS,Docker,Pandas, seaborn, Scikit-Learn, Matplotlib, MLflow, Flask, Streamlit, Plotly"
+  },
+  {
+    id: "7",
+    title: " AI-powered Multiple Choice Questions (MCQs) Genrator",
+    oneLinerDescription: "Provide a body of text and get AI-generated quizzes in seconds.",
+    liveDemo: "",
+    imageUrl: "",
+    githubLink: "https://github.com/reenal/mcq_genrator",
+    description: "AI-powered app that takes in text, either as Input Text, Pdf File upload or Image uploads of Scans, and generates quizzes from it. It is intended to help teachers create quizzes and exams for their students, and for students to self-study.",
+    otherInfo: "Python, NumPy,AWS,Docker,Pandas, seaborn, Scikit-Learn, Matplotlib, MLflow, Flask, Streamlit, Plotly"
+  },
+
   
 ];
 
