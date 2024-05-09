@@ -164,7 +164,9 @@ function Books() {
           </div>
 
           {/* Book Cards */}
-          <div className="row row1" style={{ paddingTop: "20px", border: '2px solid black' }}>
+          <div className="row row1" 
+          // style={{ paddingTop: "20px" }}
+          >
             <div className="col">
               <h5 className="category1">To Read</h5>
               {filterBooksByStatus("To Read").map((book) => (

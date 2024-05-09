@@ -57,7 +57,7 @@
 }
 
 .fancy-border-shadow {
-    -webkit-box-shadow: 8px 8px 3px 2px #b5e0ff;
--moz-box-shadow: 8px 8px 3px 2px #b5e0ff;
-box-shadow: 8px 8px 3px 2px #b5e0ff;
+    -webkit-box-shadow: 8px 8px 3px 2px rgba(253, 237, 142, 1);
+-moz-box-shadow: 8px 8px 3px 2px rgba(253, 237, 142, 1);
+box-shadow: 8px 8px 3px 2px rgba(253, 237, 142, 1);
 }

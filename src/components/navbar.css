@@ -50,12 +50,13 @@
 }
 
 .navbar-brand {
-  color: black;
+  /* color: black; */
   transition: color 0.3s ease;
 }
 
 .navbar-brand:hover {
   color: darkblue;
+  /* color: rgba(253, 237, 142, 0.904); */
 }
 
 .navbar-brand:hover .App-logo {
@@ -68,4 +69,5 @@
 
 .navbar-nav .nav-link:hover {
   color: darkblue;
+  /* color: rgba(253, 237, 142, 0.904);; */
 }

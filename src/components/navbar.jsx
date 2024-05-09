@@ -15,7 +15,7 @@ function Navbar() {
       <div className="container-fluid" 
       // style={{ padding: '0'}}
       >
-        <a className="navbar-brand nav-link" href="#home" 
+        <a className="navbar-brand nav-link" href="/home" 
         // style={{padding: '0', margin: '0'}}
         >
           <img src={logo1} alt="Logo" className="logo App-logo" />

@@ -72,7 +72,7 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}>
+      <div className='text-center p-3' style={{ backgroundColor: 'black', color: 'rgba(253, 237, 142, 1)' }}>
         Copyright © 2024 by Reenal || all rights reserved
       </div>
     </MDBFooter>
