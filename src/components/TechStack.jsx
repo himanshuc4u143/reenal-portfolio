@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect, useRef } from "react";
+import { useParams } from "react-router-dom";
 import { MDBContainer, MDBProgress, MDBProgressBar } from "mdb-react-ui-kit";
 import { CircularProgress } from "@mui/material";
 import {
@@ -102,6 +104,19 @@ const skills = [
   // "TDD",
 ];
 function TechStack() {
+
+  // const { id } = useParams();
+  // const targetRef = useRef(null);
+
+  // useEffect(() => {
+  //   const scrollToTarget = () => {
+  //     if (targetRef.current) {
+  //       targetRef.current.scrollIntoView({ behavior: 'smooth' });
+  //     }
+  //   };
+
+  //   scrollToTarget();
+  // }, [id]);
   return (
     <MDBContainer fluid>
       <div className="">
@@ -230,6 +245,7 @@ function TechStack() {
             <div
               className="linearDiv hover-shadow rounded-2"
               style={{ paddingBottom: "50px" }}
+              // ref={targetRef}
             >
               <h6>NumPy</h6>
               <MDBProgress className="MDBProgress">

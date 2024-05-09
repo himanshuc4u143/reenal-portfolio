@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = ({ title, date, author, content }) => {
   return (
-    <div className="card card1 w-100 h-100 shadow p-2 mb-5 rounded" style={{height: ''}}>
+    <div className="card card1 w-100 h-100 shadow p-2 mb-5 bg-body rounded" style={{height: ''}}>
       <div className="card-body" >
         <h5 className="card-title card1-title">{title}</h5>
         <h6 className="card-subtitle mb-2 text-muted">{date} Author - {author}</h6>

@@ -12,13 +12,15 @@ import {
 } from 'react-router-dom';
 
 import ErrorPage from './ErrorPage';
- import Projects from './components/Projects';
+//  import Projects from './components/Projects';
 import ProjectPage from './ProjectPages/ProjectPage';
 import Books from './components/Books';
-import HobbiesPage from './components/HobbiesPage';
+// import HobbiesPage from './components/HobbiesPage';
 import BlogsPage from './components/BlogsPage';
 import Certificates from './components/Certificates';
-import Projects1 from './components/Projects1';
+// import EnquiryForm from './components/EnquiryForm';
+import ContactUs from './ContactUs';
+// import Projects1 from './components/Projects1';
 
 const router = createBrowserRouter([
   {
@@ -31,11 +33,11 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <ErrorPage/>,
   },
-  {
-    path: '/projects',
-    element: <Projects1/>,
-    errorElement: <ErrorPage/>,
-  },
+  // {
+  //   path: '/projects',
+  //   element: <Projects1/>,
+  //   errorElement: <ErrorPage/>,
+  // },
   {
     path: '/projects/:id',
     element: <ProjectPage/>,
@@ -46,11 +48,11 @@ const router = createBrowserRouter([
     element: <Books/>,
     errorElement: <ErrorPage/>
   },
-  {
-    path: '/hobbies',
-    element: <HobbiesPage/>,
-    errorElement: <ErrorPage/>
-  },
+  // {
+  //   path: '/hobbies',
+  //   element: <HobbiesPage/>,
+  //   errorElement: <ErrorPage/>
+  // },
   {
     path: '/blogs',
     element: <BlogsPage/>,
@@ -59,6 +61,11 @@ const router = createBrowserRouter([
   {
     path: '/certificates',
     element: <Certificates/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: '/contactUs',
+    element: <ContactUs/>,
     errorElement: <ErrorPage/>
   }
 ]);

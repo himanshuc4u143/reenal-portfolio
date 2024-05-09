@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-import logo from '../images/Logo/output-onlinepngtools.png';
+// import logo from '../images/Logo/output-onlinepngtools.png';
 import logo1 from '../images/Logo/logo_cropped.png'
 
 function Navbar() {
@@ -46,7 +46,7 @@ function Navbar() {
               <Link className="nav-link" aria-current="page" to="/blogs">Blogs</Link>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="/projects">Projects</a>
+              <a className="nav-link" href="/projects/:id">Projects</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/certificates">Certificates</a>
@@ -57,11 +57,11 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="/books">Books</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="/hobbies">Hobbies</a>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className="nav-link" href="/contactUs">Contact</a>
             </li>
           </ul>
         </div>

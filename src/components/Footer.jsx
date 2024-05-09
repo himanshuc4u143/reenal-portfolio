@@ -5,6 +5,7 @@ import {
   MDBBtn,
   MDBIcon
 } from 'mdb-react-ui-kit';
+import './footer.css'
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
         <section className='mb-4 d-flex justify-content-center'> {/* Added d-flex justify-content-center */}
           <MDBBtn
             floating 
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#3b5998' }}
             href='https://www.facebook.com/reenal.zampal'
             role='button'
@@ -23,7 +24,7 @@ export default function Footer() {
 
           <MDBBtn
             floating
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#55acee' }}
             href='https://twitter.com/ReenalZampal'
             role='button'
@@ -33,7 +34,7 @@ export default function Footer() {
 
           <MDBBtn
             floating
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#dd4b39' }}
             href='#!'
             role='button'
@@ -42,7 +43,7 @@ export default function Footer() {
           </MDBBtn>
           <MDBBtn
             floating
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#ac2bac' }}
             href='https://www.instagram.com/reenalzampal/'
             role='button'
@@ -52,7 +53,7 @@ export default function Footer() {
 
           <MDBBtn
             floating
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#0082ca' }}
             href='https://www.linkedin.com/in/reenal-zampal-boddul'
             role='button'
@@ -62,7 +63,7 @@ export default function Footer() {
 
           <MDBBtn
             floating
-            className='m-1 d-flex justify-content-center align-items-center'
+            className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#333333' }}
             href='https://github.com/ree'
             role='button'
@@ -73,8 +74,8 @@ export default function Footer() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'black', color: 'rgba(253, 237, 142, 1)' }}>
-        {/* Copyright © 2024 by Reenal || all rights reserved */}
-        Made with Love in India
+        Copyright © 2024 by Reenal || all rights reserved
+        {/* Made with Love in India */}
       </div>
     </MDBFooter>
   );

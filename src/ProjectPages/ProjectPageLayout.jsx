@@ -15,9 +15,11 @@ const ProjectPageLayout = ({
 }) => {
   return (
     <div>
-      <div className="">
-        <div className="empty-div">
-          <div style={{ textAlign: "left" }}>
+      <div className="" style={{border: '2px solid black'}}>
+        <div className="empty-div" style={{border: '2px solid blue'}}>
+          <div style={{ textAlign: "left" , border: '2px solid green'}}
+            // ref={targetRef}
+            >
             <h1
               className="gradient-text"
               style={{ paddingBottom: "10px" }}

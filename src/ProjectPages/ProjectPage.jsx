@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import ProjectPageLayout from './ProjectPageLayout';
 import DefaultLayout from '../Layout/DefaultLayout';
@@ -112,15 +112,40 @@ const projects = [
 ];
 
 const ProjectPage = () => {
-  const { projectId } = useParams();
+  console.log('in projectpage')
+  const { id } = useParams();
+  console.log("id:"+id);
+  const targetRef = useRef(null);
 
   useEffect(() => {
-    const projectElement = document.getElementById(projectId);
-    if (projectElement) {
-      projectElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  }, [projectId]);
+    const scrollToTarget = () => {
+      const projectElement = document.getElementById(3);  
+      console.log('projectElement: '+projectElement);
+      // console.log('id: '+document.);
+      if(projectElement) {
+        console.log('in if loop');
+        projectElement.scrollIntoView({behavior: 'smooth'});
+      }
+    };
 
+    scrollToTarget();
+  }, [id])
+
+  // const { id } = useParams();
+  // console.log('id: '+id);
+  // const targetRef = useRef(id);
+
+  // useEffect(() => {
+  //   const scrollToTarget = () => {
+  //     if (targetRef.current) {
+  //       targetRef.current.scrollIntoView({ behavior: 'smooth' });
+  //     }
+  //   };
+
+  //   scrollToTarget();
+  // }, [id]);
+
+  
   return (
     <DefaultLayout>
       <div className="app">
@@ -129,6 +154,7 @@ const ProjectPage = () => {
             key={project.id}
             id={project.id}
             title={project.title}
+            ref={project.id === id ? targetRef: null}
             oneLinerDescription={project.oneLinerDescription}
             liveDemo={project.liveDemo}
             imageUrl={getImageUrl(project.id)}

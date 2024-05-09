@@ -6,7 +6,7 @@ const Recommendation = ({ title, date, author, content }) => {
     <div className="card-group m-3">
       {" "}
       {/* Added Bootstrap grid classes */}
-      <div className="card testimonialCard border-primary card1">
+      <div className="card testimonialCard card1">
         <div className="card-body d-flex flex-column justify-content-space-around">
           {" "}
           {/* Added Flexbox classes */}

@@ -7,7 +7,7 @@
   align-items: flex-start;
   justify-content: space-around;
   height: 10vh; /* Using vh for responsive height */
-  background-color: rgba(253, 237, 142, 0.904);
+  background-color: rgba(253, 237, 142, 1);
   /* background-color: #bb9429; */
   /* margin-left: -250px; */
   z-index: 2;
@@ -39,7 +39,7 @@
 
 .App-logo {
   position: absolute;
-  height: 110%;
+  height: 100%;
   margin: 0;
   padding-left: 0.7vw; /* Using vw for responsive padding */
   padding-top: 1vh; /* Using vh for responsive padding */
@@ -55,12 +55,12 @@
 }
 
 .navbar-brand:hover {
-  color: darkblue;
+  /* color: darkblue; */
   /* color: rgba(253, 237, 142, 0.904); */
 }
 
 .navbar-brand:hover .App-logo {
-  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg);
+  /* filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg); */
 }
 
 .navbar-nav .nav-link {
@@ -68,6 +68,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: darkblue;
+  /* color: darkblue; */
+  color: #1A1AE5;
   /* color: rgba(253, 237, 142, 0.904);; */
 }
