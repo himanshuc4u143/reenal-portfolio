@@ -12,15 +12,15 @@
   /* border:  2px solid black; */
 }
 
-.gaugeDiv {
+/* .gaugeDiv {
   width: fit-content;
   text-align: center;
   /* border: 1px solid black; */
 
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+ /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
-}
+} */
 
   .circleDiv {
     width: fit-content;
@@ -42,7 +42,7 @@
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-
+/* border: 1px solid red; */
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.50);

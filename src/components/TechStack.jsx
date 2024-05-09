@@ -276,14 +276,14 @@ function TechStack() {
           </div>
 
           {/* Circular Progress Bars */}
-          <div className="col-2" style={{ padding: "10px" }}>
+          <div className="col-2" style={{ padding: "0.5vw", paddingLeft: '3.5vw' }}>
             <div className="circleDiv hover-shadow rounded-4">
               <CustomCircularProgress
                 value={80}
                 skillName="TensorFlow"
                 // width={150}
                 // height={150}
-                style={{ border: '2px solid black'}}
+                // style={{ border: '2px solid black'}}
               />
               <h6>TensorFlow</h6>
             </div>
@@ -296,8 +296,33 @@ function TechStack() {
               <h6>ML Algorithms</h6>
             </div>
           </div>
+          
+          
+          <div className="col-2" 
+          style={{ padding: "10px"}}
+          >
+            <div className="circleDiv hover-shadow rounded-4">
+              <CustomCircularProgress
+                value={80}
+                skillName="Docker"
+                // width={150}
+                // height={150}
+                // style={{ border: '2px solid black'}}
+              />
+              <h6>Docker</h6>
+            </div>
+            <div className="circleDiv hover-shadow rounded-4">
+              <CustomCircularProgress value={70} skillName="Keras" />
+              <h6>Keras</h6>
+            </div>
+            <div className="circleDiv hover-shadow rounded-4">
+              <CustomCircularProgress value={80} skillName="Flask" />
+              <h6>Flask</h6>
+            </div>
+          </div>
+
           {/* Gauges */}
-          <div className="col-2" style={{ padding: "10px" }}>
+          {/* <div className="col-2" style={{ padding: "10px" }}>
             <div className="gaugeDiv hover-shadow rounded-3">
               <GaugeContainer
                 style={{ padding: "0px" }}
@@ -347,7 +372,7 @@ function TechStack() {
               </GaugeContainer>
               <h6>Docker</h6>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </MDBContainer>
