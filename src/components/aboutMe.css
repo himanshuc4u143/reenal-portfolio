@@ -1,13 +1,13 @@
 
 .main-container {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   /* background-color: white; */
 }
 
 
 
 .myCol {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* background-color: cornsilk; */
   background-repeat: no-repeat;
   /* background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif); */
@@ -24,7 +24,7 @@
     /* padding-left: 250px; */
     /*padding-left: 15.625rem; /* Adjusted padding using rem */
     align-items: center;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 
 .wrap {
@@ -34,19 +34,23 @@
   /* justify-content: center; */
   /* height: 100vh; */
   /* border: 10px solid green; */
-  height: 810px; 
+  /* height: 810px;  */
+  height: 90vh;
   padding-left: 12%;
+  border: 5px solid black; 
 }
 
 .circle {
   /* background: plum; */
-  width: 31.25rem; /* 500px converted to rem */
-  height: 31.25rem; /* 500px converted to rem */
+  /*width: 31.25rem; /* 500px converted to rem */
+  /*height: 31.25rem; /* 500px converted to rem */
+  width: 90%;
+height: 60%;
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   overflow: hidden;
   animation: morph 3s linear infinite;
   position: relative;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 .circle::before {
