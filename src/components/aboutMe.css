@@ -43,8 +43,8 @@
   /* background: plum; */
   /*width: 31.25rem; /* 500px converted to rem */
   /*height: 31.25rem; /* 500px converted to rem */
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 56%;
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   overflow: hidden;
   animation: morph 3s linear infinite;
