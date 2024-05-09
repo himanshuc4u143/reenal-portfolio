@@ -10,13 +10,7 @@ export default function AboutMe() {
     <div className="myCol">
       <div className="">
         <div className="row g-0 flexible">
-          <div class="col-6 col-md-5 wrap">
-            <div className="circle"
-            // style={{border: '2px solid red', marginTop: '0px', paddingTop: '0px'}}
-            >
-              <img src={aiImg} alt="" />
-            </div>
-          </div>
+          
           <div className="col-6 col-md-7 myCol">
             <div className="content1">
               <h2 className="gradient-text header-container">
@@ -56,6 +50,13 @@ export default function AboutMe() {
                   Download CV
                 </a>
               </div> */}
+            </div>
+          </div>
+          <div class="col-6 col-md-5 wrap">
+            <div className="circle"
+            // style={{border: '2px solid red', marginTop: '0px', paddingTop: '0px'}}
+            >
+              <img src={aiImg} alt="" />
             </div>
           </div>
         </div>

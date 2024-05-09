@@ -1,4 +1,3 @@
-
 .main-container {
   border: 2px solid black;
   /* background-color: white; */
@@ -7,24 +6,24 @@
 
 
 .myCol {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* background-color: cornsilk; */
   background-repeat: no-repeat;
   /* background-image: url(../images/white-background-gradient-modern-abstract-design-wave_343694-2337.avif); */
   /* background-position: cover.0; */
-  
+
 }
 
-.content1{
-  
-    margin-top: 20%;
-    margin-right: 20%;
-    display: flexbox;
-    text-align: left;
-    /* padding-left: 250px; */
-    /*padding-left: 15.625rem; /* Adjusted padding using rem */
-    align-items: center;
-    border: 2px solid black;
+.content1 {
+
+  margin-top: 20%;
+  margin-left: 20%;
+  display: flexbox;
+  text-align: left;
+  /* padding-left: 250px; */
+  /*padding-left: 15.625rem; /* Adjusted padding using rem */
+  align-items: center;
+  /* border: 2px solid black; */
 }
 
 .wrap {
@@ -36,34 +35,40 @@
   /* border: 10px solid green; */
   /* height: 810px;  */
   height: 90vh;
-  padding-left: 12%;
-  border: 5px solid black; 
+  padding-left: 5%;
+  /* border: 5px solid black; */
 }
 
 .circle {
   /* background: plum; */
   /*width: 31.25rem; /* 500px converted to rem */
   /*height: 31.25rem; /* 500px converted to rem */
-  width: 90%;
-height: 60%;
+  width: 60%;
+  height: 60%;
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   overflow: hidden;
   animation: morph 3s linear infinite;
   position: relative;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .circle::before {
-  content: ''; /* Required for pseudo-elements */
-  position: absolute; /* Position absolute to overlay the image */
-  top: -0.3125rem; /* -2% converted to rem */
-  left: -0.3125rem; /* -2% converted to rem */
+  content: '';
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position absolute to overlay the image */
+  top: -0.3125rem;
+  /* -2% converted to rem */
+  left: -0.3125rem;
+  /* -2% converted to rem */
   width: 100%;
   height: 100%;
   /* overflow: visible; */
-  border-radius: inherit; /* Inherit border-radius from parent */
+  border-radius: inherit;
+  /* Inherit border-radius from parent */
   /* background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
-  animation: glowing-shadow 3s linear infinite; /* Glowing animation */
+  animation: glowing-shadow 3s linear infinite;
+  /* Glowing animation */
 }
 
 .circle img {
@@ -71,12 +76,16 @@ height: 60%;
 }
 
 @keyframes morph {
-  0%, 100% {
+
+  0%,
+  100% {
     border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
   }
+
   34% {
     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
   }
+
   67% {
     border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
   }
@@ -84,23 +93,29 @@ height: 60%;
 
 @keyframes glowing-shadow {
   0% {
-    box-shadow: 0 0 0.625rem 0.3125rem #bb9429; /* Adjusted values in rem */
+    box-shadow: 0 0 0.625rem 0.3125rem #bb9429;
+    /* Adjusted values in rem */
   }
+
   100% {
-    box-shadow: 0 0 1.25rem 0.625rem #bb9429; /* Adjusted values in rem */
+    box-shadow: 0 0 1.25rem 0.625rem #bb9429;
+    /* Adjusted values in rem */
   }
 }
 
 /* Media query for smaller viewports */
 @media only screen and (max-width: 48rem) {
 
-  .flexible{
+  .flexible {
     display: flex;
-    flex-direction: column; /* Display content in columns for mobile */
+    flex-direction: column;
+    /* Display content in columns for mobile */
     width: 100%;
   }
+
   .content1 {
-    padding-left: 2rem; /* Adjusted padding for smaller viewports */
+    padding-left: 2rem;
+    /* Adjusted padding for smaller viewports */
     margin-right: 2%;
   }
 }
@@ -108,6 +123,7 @@ height: 60%;
 /* Media query for even smaller viewports like mobiles */
 @media only screen and (max-width: 36rem) {
   .content1 {
-    padding-left: 1rem; /* Further adjusted padding for mobile viewports */
+    padding-left: 1rem;
+    /* Further adjusted padding for mobile viewports */
   }
 }
