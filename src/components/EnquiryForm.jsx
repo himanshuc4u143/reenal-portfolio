@@ -38,6 +38,15 @@ function EnquiryForm() {
   </svg>
   `;
 
+  const redirectToWhatsapp = () => {
+    
+    const whatsappNumber = "46738719117";
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+
+    window.open(whatsappUrl, "_blank");
+  }
+
   return (
     <section className="w-100 bg-transparent background-div">
       <div
@@ -111,9 +120,11 @@ function EnquiryForm() {
                 <div className="row g-0" >
                   <div className="col-1">
                     <div
-                      style={{ padding: "5px" }}
+                      style={{ padding: "5px", cursor: 'pointer' }}
                       dangerouslySetInnerHTML={{ __html: whatsappSVGString }}
-                    ></div>
+                      onClick={redirectToWhatsapp}
+                    >
+                    </div>
                   </div>
                   <div className="col-4" style={{ padding: "10px", paddingLeft: '20px' }}>
                     <h5>(+46)-734945657</h5>

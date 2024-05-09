@@ -28,11 +28,11 @@ export default function Certificates() {
         </div>
         <div
           className=""
-          style={{ padding: "50px" }}
+          // style={{ padding: "50px" }}
         >
           <div
             class="row gy-2"
-            style={{ padding: "50px" }}
+            // style={{ padding: "50px" }}
             >
               <center>
             <div
@@ -46,8 +46,9 @@ export default function Certificates() {
                   borderRadius: "10px", // Rounded corners
                   padding: "10px", // Some padding inside the border
                   // boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
+                  width: '70%', height: 'auto'
                 }}
-              >
+                >
                 <img
                   src={cdac}
                   alt=""
@@ -275,7 +276,7 @@ export default function Certificates() {
                   border: "10px solid black", // Green border with 3px width
                   borderRadius: "10px", // Rounded corners
                   padding: "10px", // Some padding inside the border
-                  boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
+                  // boxShadow: "0 0 30px rgba(0, 0, 0, 0.5)", // Adding a subtle shadow
                 }}
               >
                 <img

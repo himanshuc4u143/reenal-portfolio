@@ -73,7 +73,8 @@ export default function Footer() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'black', color: 'rgba(253, 237, 142, 1)' }}>
-        Copyright © 2024 by Reenal || all rights reserved
+        {/* Copyright © 2024 by Reenal || all rights reserved */}
+        Made with Love in India
       </div>
     </MDBFooter>
   );

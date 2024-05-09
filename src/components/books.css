@@ -1,5 +1,4 @@
-
-
+/* Default styles */
 .books-container {
   display: flex;
   flex-direction: column;
@@ -7,7 +6,6 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
-  /* border: 2px solid red; */
 }
 
 .empty-div {
@@ -16,60 +14,54 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* padding: 20px; */
-  /* margin-bottom: 20px; */
-  margin-bottom: 2vw; /* Using viewport width (vw) unit */
-  /* border: 2px solid blue; */
+  margin-bottom: 1.5rem; /* Using rem for margin */
 }
 
 .row1 {
-width: fit-content;
+  width: fit-content; /* Set width to fit content */
 }
 
 .category {
   background-color: purple;
-  border-radius: 0.35vw;
+  border-radius: 0.5rem; /* Using rem for border-radius */
   display: inline-block;
-  /* padding: 5px 5px; */
-  padding: 0.35vw; /* Using viewport width (vw) unit */
-  /* margin-bottom: 10px; */
-  margin-bottom: 0.35vw; /* Using viewport width (vw) unit */
+  padding: 0.5rem 0.5rem; /* Using rem for padding */
+  margin-bottom: 1rem; /* Using rem for margin */
 }
 
 .category1 {
   background-color: pink;
-  border-radius: 10px;
+  border-radius: 1rem; /* Using rem for border-radius */
   display: inline-block;
-  /* padding: 10px; */
-  padding: 0.5vw; /* Using viewport width (vw) unit */
-  /* margin-bottom: 20px;  */
-  margin-bottom: 1vw; /* Using viewport width (vw) unit */
+  padding: 1rem; /* Using rem for padding */
+  margin-bottom: 1.5rem; /* Using rem for margin */
 }
-
 
 /* Responsive styles with media queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48rem) {
   /* Adjust styles for screens smaller than 768px */
   .category {
-    padding: 2vw 2vw; /* Using viewport width (vw) unit */
-    margin-bottom: 5vw; /* Using viewport width (vw) unit */
+    padding: 1rem 1rem; /* Using rem for padding */
+    margin-bottom: 1rem; /* Using rem for margin */
+    border-radius: 0.1 rem;
   }
 
   .category1 {
-    padding: 5vw; /* Using viewport width (vw) unit */
-    margin-bottom: 1vw; /* Using viewport width (vw) unit */
+    padding: 1rem; /* Using rem for padding */
+    margin-bottom: 1rem; /* Using rem for margin */
+    border-radius: 0.1 rem;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 36rem) {
   /* Adjust styles for screens smaller than 576px */
   .category {
-    padding: 2vw 2vw; /* Using viewport width (vw) unit */
-    margin-bottom: 3vw; /* Using viewport width (vw) unit */
+    padding: 0.2rem 0.2rem; /* Using rem for padding */
+    margin-bottom: 0.3rem; /* Using rem for margin */
   }
 
   .category1 {
-    padding: 3vw; /* Using viewport width (vw) unit */
-    margin-bottom: 5vw; /* Using viewport width (vw) unit */
+    padding: 0.3rem; /* Using rem for padding */
+    margin-bottom: 0.5rem; /* Using rem for margin */
   }
 }

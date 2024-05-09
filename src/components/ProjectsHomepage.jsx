@@ -101,7 +101,7 @@ function ProjectsHomepage() {
                   Unet model
                 </p>
                 <div className="btn-bottom " style={{padding: '20px'}}>
-                <a href="#" className="btn btn-primary button">
+                <a href="/projects/3" className="btn btn-primary button">
                   See More
                 </a>
                 </div>
@@ -120,7 +120,7 @@ function ProjectsHomepage() {
                 </p>
                 <div className="btn-bottom" style={{padding: '20px'}}>
                 
-                <a href="#" className="btn btn-primary button">
+                <a href="/projects/4" className="btn btn-primary button">
                   See More
                 </a>
                 </div>
@@ -138,7 +138,7 @@ function ProjectsHomepage() {
                   </p>
                   <div className="btn-bottom" style={{padding: '20px'}}>
                 
-                <a href="#" className="btn btn-primary button">
+                <a href="/projects/5" className="btn btn-primary button">
                   See More
                 </a>
                 </div>

@@ -72,7 +72,7 @@
 
 .par-content {
   font-size: 1.2rem; /* Adjust font size as needed */
-  text-align: left; /* Align text to the left */
+  text-align: justify; /* Align text to the left */
 }
 
 /* Custom styles for gradient effect */

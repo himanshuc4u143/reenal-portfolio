@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import ProjectPageLayout from './ProjectPageLayout';
 import DefaultLayout from '../Layout/DefaultLayout';
 import assert from "../images/assert.jpg";
@@ -110,9 +112,17 @@ const projects = [
 ];
 
 const ProjectPage = () => {
+  const { projectId } = useParams();
+
+  useEffect(() => {
+    const projectElement = document.getElementById(projectId);
+    if (projectElement) {
+      projectElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [projectId]);
+
   return (
     <DefaultLayout>
-      {/* <h1>Hello</h1> */}
       <div className="app">
         {projects.map(project => (
           <ProjectPageLayout
@@ -121,7 +131,7 @@ const ProjectPage = () => {
             title={project.title}
             oneLinerDescription={project.oneLinerDescription}
             liveDemo={project.liveDemo}
-            imageUrl={project.imageUrl}
+            imageUrl={getImageUrl(project.id)}
             githubLink={project.githubLink}
             description={project.description.split('<br /><br />').map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
@@ -132,6 +142,31 @@ const ProjectPage = () => {
       </div>
     </DefaultLayout>
   );
+};
+
+const getImageUrl = (projectId) => {
+  switch (projectId) {
+    case "1":
+      return assert;
+    case "2":
+      return gita;
+    case "3":
+      return skin;
+    case "4":
+      return alistair;
+    case "5":
+      return cotton1;
+    case "6":
+      return flase;
+    case "7":
+      return mcq;
+    case "8":
+      return vehicle;
+    case "9":
+      return covid;
+    default:
+      return "";
+  }
 };
 
 export default ProjectPage;

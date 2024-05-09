@@ -15,22 +15,17 @@
   
 }
 
-/* .foregroundImg {
-  background-color: blueviolet;
-  border-radius: 36% 64% 36% 64% / 72% 51% 49% 28%;
-  position: relative;
-  height: 50%;
-  width: 50%;
+.content1{
+  
+    margin-top: 20%;
+    margin-right: 20%;
+    display: flexbox;
+    text-align: left;
+    /* padding-left: 250px; */
+    /*padding-left: 15.625rem; /* Adjusted padding using rem */
+    align-items: center;
+    /* border: 2px solid black; */
 }
-
-.backgroundImg {
-  position: absolute;
-} */
-
-
-/* body {
-  background: #000;
-} */
 
 .wrap {
   /* top: 100%; */
@@ -38,28 +33,32 @@
   align-items: center;
   /* justify-content: center; */
   /* height: 100vh; */
+  /* border: 10px solid green; */
+  height: 810px; 
+  padding-left: 12%;
 }
 
 .circle {
   /* background: plum; */
-  width: 500px;
-  height: 500px;
+  width: 31.25rem; /* 500px converted to rem */
+  height: 31.25rem; /* 500px converted to rem */
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   overflow: hidden;
   animation: morph 3s linear infinite;
   position: relative;
+  /* border: 2px solid blue; */
 }
 
 .circle::before {
   content: ''; /* Required for pseudo-elements */
   position: absolute; /* Position absolute to overlay the image */
-  top: -2%;
-  left: -2%;
+  top: -0.3125rem; /* -2% converted to rem */
+  left: -0.3125rem; /* -2% converted to rem */
   width: 100%;
   height: 100%;
   /* overflow: visible; */
   border-radius: inherit; /* Inherit border-radius from parent */
-  /*background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
+  /* background: radial-gradient(rgba(23, 93, 126, 0), translucent); /* Glowing shadow effect */
   animation: glowing-shadow 3s linear infinite; /* Glowing animation */
 }
 
@@ -81,9 +80,30 @@
 
 @keyframes glowing-shadow {
   0% {
-    box-shadow: 0 0 10px 5px #bb9429; /* Initial shadow */
+    box-shadow: 0 0 0.625rem 0.3125rem #bb9429; /* Adjusted values in rem */
   }
   100% {
-    box-shadow: 0 0 20px 10px #bb9429; /* Glowing shadow */
+    box-shadow: 0 0 1.25rem 0.625rem #bb9429; /* Adjusted values in rem */
+  }
+}
+
+/* Media query for smaller viewports */
+@media only screen and (max-width: 48rem) {
+
+  .flexible{
+    display: flex;
+    flex-direction: column; /* Display content in columns for mobile */
+    width: 100%;
+  }
+  .content1 {
+    padding-left: 2rem; /* Adjusted padding for smaller viewports */
+    margin-right: 2%;
+  }
+}
+
+/* Media query for even smaller viewports like mobiles */
+@media only screen and (max-width: 36rem) {
+  .content1 {
+    padding-left: 1rem; /* Further adjusted padding for mobile viewports */
   }
 }

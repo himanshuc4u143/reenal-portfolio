@@ -61,3 +61,20 @@
 -moz-box-shadow: 8px 8px 3px 2px rgba(253, 237, 142, 1);
 box-shadow: 8px 8px 3px 2px rgba(253, 237, 142, 1);
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .empty-div {
+      padding: 1.5rem; /* Adjust padding for smaller screens */
+      margin-bottom: 1.5rem; /* Adjust margin for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 576px) {
+  .empty-div {
+      padding: 1rem; /* Further adjust padding for smaller screens */
+      margin-bottom: 1rem; /* Further adjust margin for smaller screens */
+  }
+}

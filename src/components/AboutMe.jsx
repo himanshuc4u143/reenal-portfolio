@@ -8,20 +8,17 @@ import aiImg from "../images/DeWatermark.ai_1713524697848.png";
 export default function AboutMe() {
   return (
     <div className="myCol">
-      <div className=" text-center">
-        <div className="row g-0">
-          <div className="col-6 col-md-7 myCol">
-            <div
-              className=""
-              style={{
-                marginTop: "20%",
-                display: "flexbox",
-                textAlign: "left",
-                paddingLeft: "250px",
-                alignItems: "center",
-                // border: '2px solid black'
-              }}
+      <div className="">
+        <div className="row g-0 flexible">
+          <div class="col-6 col-md-5 wrap">
+            <div className="circle"
+            // style={{border: '2px solid red', marginTop: '0px', paddingTop: '0px'}}
             >
+              <img src={aiImg} alt="" />
+            </div>
+          </div>
+          <div className="col-6 col-md-7 myCol">
+            <div className="content1">
               <h2 className="gradient-text header-container">
                 Data Scientist | Mentor | Speaker | Blogger
               </h2>
@@ -59,14 +56,6 @@ export default function AboutMe() {
                   Download CV
                 </a>
               </div> */}
-            </div>
-          </div>
-          <div
-            class="col-6 col-md-5 wrap"
-            style={{ height: "870px", top: "50%", paddingLeft: "2%" }}
-          >
-            <div className="circle">
-              <img src={aiImg} alt="" />
             </div>
           </div>
         </div>
