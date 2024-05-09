@@ -29,4 +29,4 @@ yarn-error.log*
 #keys
 mySSHKey
 mySSHKey.pub
-sendGridKey
+# sendGridKey
