@@ -35,7 +35,7 @@ export default function AboutMe() {
                 data science techniques to address complex business and
                 engineering challenges.
               </p>
-              {/* <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
+              { <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
                 <a
                   href={reenalCV}
                   download="Reenal_CV.pdf"
@@ -49,7 +49,8 @@ export default function AboutMe() {
                 >
                   Download CV
                 </a>
-              </div> */}
+              </div> }
+              <br />
               <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
                <p>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।</p>
               </div> 
