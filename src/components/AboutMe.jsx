@@ -52,20 +52,22 @@ export default function AboutMe() {
                 </div>
               }
               <br />
+             
               <center>
                 <div className="text-center empty-div"
                 // style={{ paddingLeft: "10%", paddingTop: "1px", border: '1px solid black', textAlign: 'center', alignContent: 'center',  }}
                 >
-                  {/* <center> */}
+                 
                   <h2
                     className="gradient-text header-container"
                     style={{ fontWeight: "bolder", fontSize: "3vh" }}
                   >
                     ॥ कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ॥
                   </h2>
-                  {/* </center> */}
+           
                 </div>
               </center>
+         
             </div>
           </div>
           <div class="col-6 col-md-5 wrap">
