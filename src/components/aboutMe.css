@@ -16,8 +16,8 @@
 
 .content1 {
 
-  margin-top: 10%;
-  margin-left: 20%;
+  margin-top: 10vw;
+  margin-left: 13vw;
   display: flexbox;
   text-align: left;
   /* padding-left: 250px; */
@@ -43,8 +43,8 @@
   /* background: plum; */
   /*width: 31.25rem; /* 500px converted to rem */
   /*height: 31.25rem; /* 500px converted to rem */
-  width: 70%;
-  height: 56%;
+  width: 25vw;
+  height: 25vw;
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
   overflow: hidden;
   animation: morph 3s linear infinite;
