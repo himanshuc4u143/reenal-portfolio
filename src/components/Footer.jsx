@@ -32,15 +32,7 @@ export default function Footer() {
             <MDBIcon fab icon='twitter' />
           </MDBBtn>
 
-          <MDBBtn
-            floating
-            className='m-1 d-flex justify-content-center align-items-center icons'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
+          
           <MDBBtn
             floating
             className='m-1 d-flex justify-content-center align-items-center icons'
@@ -65,7 +57,7 @@ export default function Footer() {
             floating
             className='m-1 d-flex justify-content-center align-items-center icons'
             style={{ backgroundColor: '#333333' }}
-            href='https://github.com/ree'
+            href='https://github.com/reenal'
             role='button'
           >
             <MDBIcon fab icon='github' />
