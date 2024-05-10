@@ -55,11 +55,14 @@ const ProjectPageLayout = ({
                 Live Demo
               </MDBBtn>
             </div>
-            <img
-              style={{ width: "900px", height: "600px", paddingBottom: '30px' }}
+            <div className=""
+            >
+            <img className=""
+            style={{ width: "40vw", height: "27vw", paddingBottom: '30px', paddingTop: '30px' }}
               src={imageUrl}
               alt="assert"
             />
+            </div>
             <p className="par-content"><h4>Description: </h4>{description}</p><hr />
             
             <p className="par-content"><h4>Technologies Used: </h4>{otherInfo}</p><hr />

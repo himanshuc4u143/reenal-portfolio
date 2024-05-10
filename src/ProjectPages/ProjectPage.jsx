@@ -127,7 +127,14 @@ const ProjectPage = () => {
         const projectElement = document.getElementById(id);
         // id.scrollIntoView({behavior: 'smooth'});
         if(projectElement){
-          projectElement.scrollIntoView();
+          // projectElement.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+
+          // Get the height of the navbar
+        // const navbarHeight = document.querySelector('nav').offsetHeight;
+        // Calculate the new offset by subtracting the navbar height from the current offset
+        const newOffset = projectElement.getBoundingClientRect().top + window.pageYOffset - (10 * window.innerHeight / 100);
+        // Scroll to the adjusted position
+        window.scrollTo({ top: newOffset, behavior: 'smooth' });
         }
       }
     };
@@ -152,13 +159,15 @@ const ProjectPage = () => {
   
   return (
     <DefaultLayout>
+      {/* <div> */}
       <div className="app">
         {projects.map(project => (
           <ProjectPageLayout
             key={project.id}
             id={project.id}
-            title={project.title}
             ref={project.id === id ? targetRef: null}
+            title={project.title}
+            // ref={project.id === id ? targetRef: null}
             oneLinerDescription={project.oneLinerDescription}
             liveDemo={project.liveDemo}
             imageUrl={getImageUrl(project.id)}
@@ -170,6 +179,7 @@ const ProjectPage = () => {
           />
         ))}
       </div>
+      {/* </div> */}
     </DefaultLayout>
   );
 };
