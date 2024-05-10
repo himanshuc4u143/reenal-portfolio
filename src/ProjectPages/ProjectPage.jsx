@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import ProjectPageLayout from './ProjectPageLayout';
 import DefaultLayout from '../Layout/DefaultLayout';
 import assert from "../images/assert.jpg";
@@ -71,7 +71,7 @@ const projects = [
   {
     id: "6",
     title: "False Alarm Detection System",
-    oneLinerDescription: "Detect false alram for H2S gas leak which is hazardous to health.",
+    oneLinerDescription: "Detect false alarm for H2S gas leak which is hazardous to health.",
     liveDemo: "",
     imageUrl: flase,
     githubLink: "https://github.com/reenal/false-alarm",
@@ -100,12 +100,12 @@ const projects = [
   },
   {
     id: "9",
-    title: "Covovid-Chat-Bot",
-    oneLinerDescription: "Your personalized Covovid-Chat-Bot built with Rasa: providing reliable information and support during the pandemic.",
+    title: "Covid-Chat-Bot",
+    oneLinerDescription: "Your personalized Covid-Chat-Bot built with Rasa: providing reliable information and support during the pandemic.",
     liveDemo: "",
     imageUrl: covid,
-    githubLink: "https://github.com/reenal/rasa-covovid-chat-bot",
-    description: "The Covovid-Chat-Bot is your reliable companion in navigating the complex landscape of the COVID-19 pandemic. Powered by Rasa, an open-source conversational AI framework, this chatbot is designed to provide accurate and up-to-date information, guidance, and support related to COVID-19.<br /><br />Key Features:<br /><br />Real-time Updates: Stay informed with the latest news, statistics, and developments regarding COVID-19. The chatbot continuously monitors reliable sources to provide users with accurate and timely information.<br /><br /> FAQs and Resources: Access a comprehensive repository of frequently asked questions, curated resources, and reliable sources of information about COVID-19. Whether you're seeking guidance on quarantine protocols or mental health support, the chatbot is a valuable source of assistance.",
+    githubLink: "https://github.com/reenal/rasa-Covid-chat-bot",
+    description: "The Covid-Chat-Bot is your reliable companion in navigating the complex landscape of the COVID-19 pandemic. Powered by Rasa, an open-source conversational AI framework, this chatbot is designed to provide accurate and up-to-date information, guidance, and support related to COVID-19.<br /><br />Key Features:<br /><br />Real-time Updates: Stay informed with the latest news, statistics, and developments regarding COVID-19. The chatbot continuously monitors reliable sources to provide users with accurate and timely information.<br /><br /> FAQs and Resources: Access a comprehensive repository of frequently asked questions, curated resources, and reliable sources of information about COVID-19. Whether you're seeking guidance on quarantine protocols or mental health support, the chatbot is a valuable source of assistance.",
     otherInfo: "Python, Rasa, Keras, NumPy, AWS, Docker, Pandas, seaborn, Scikit-Learn, Matplotlib, MLflow, Flask, Plotly"
   },
   
@@ -119,17 +119,21 @@ const ProjectPage = () => {
 
   useEffect(() => {
     const scrollToTarget = () => {
-      const projectElement = document.getElementById(3);  
-      console.log('projectElement: '+projectElement);
+      // const projectElement = document.getElementById(3);  
+      // console.log('projectElement: '+projectElement);
       // console.log('id: '+document.);
-      if(projectElement) {
-        console.log('in if loop');
-        projectElement.scrollIntoView({behavior: 'smooth'});
+      if(id) {
+        console.log('in if loop: '+id);
+        const projectElement = document.getElementById(id);
+        // id.scrollIntoView({behavior: 'smooth'});
+        if(projectElement){
+          projectElement.scrollIntoView();
+        }
       }
     };
 
     scrollToTarget();
-  }, [id])
+  }, [id]);
 
   // const { id } = useParams();
   // console.log('id: '+id);

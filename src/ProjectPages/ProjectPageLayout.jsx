@@ -12,12 +12,16 @@ const ProjectPageLayout = ({
   imageUrl,
   description,
   otherInfo,
+  forwardedRef,
 }) => {
   return (
     <div>
-      <div className="" style={{border: '2px solid black'}}>
-        <div className="empty-div" style={{border: '2px solid blue'}}>
-          <div style={{ textAlign: "left" , border: '2px solid green'}}
+      <div className="" 
+      ref={forwardedRef} id={id}
+      // style={{border: '2px solid black'}}
+      >
+        <div className="empty-div" >
+          <div style={{ textAlign: "left"}}
             // ref={targetRef}
             >
             <h1
@@ -66,4 +70,7 @@ const ProjectPageLayout = ({
   );
 };
 
-export default ProjectPageLayout;
+export default React.forwardRef((props, ref) => (
+  <ProjectPageLayout {...props} forwardedRef={ref} />
+));
+
