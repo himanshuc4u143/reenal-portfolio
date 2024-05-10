@@ -25,8 +25,8 @@ export default function AboutMe() {
                 </h1>
               </header>
               <p className="par-content">
-                Experienced technologist with a strong background in software
-                development and data science, adept at crafting chatbots and
+                Experienced technologist with a strong 6+ years background in software
+                development and 3+ year in data science, adept at crafting chatbots and
                 virtual assistants, with a proven track record of quickly
                 adapting to emerging technologies and translating business
                 requirements into technical solutions. Motivated team player
@@ -50,6 +50,10 @@ export default function AboutMe() {
                   Download CV
                 </a>
               </div> */}
+              <div style={{ paddingLeft: "10%", paddingTop: "1px" }}>
+               <p>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।</p>
+              </div> 
+
             </div>
           </div>
           <div class="col-6 col-md-5 wrap">
