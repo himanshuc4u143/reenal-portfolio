@@ -127,7 +127,7 @@ function EnquiryForm() {
                     </div>
                   </div>
                   <div className="col-4" style={{ padding: "10px", paddingLeft: '20px' }}>
-                    <h5>(+46)-734945657</h5>
+                    <h5>(+46)-0738719117</h5>
                   </div>
                 </div>
                 <div className="row g-0" >
