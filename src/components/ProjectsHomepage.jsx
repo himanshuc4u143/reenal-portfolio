@@ -24,8 +24,7 @@ function ProjectsHomepage() {
             <h1 className="black-bold">My Recent Works</h1>
           </header>
           <p className="par-content">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
+          Crafting digital experiences with creativity and precision, my portfolio showcases a journey of innovation and passion.
           </p>
         </div>
         <div className="row">
