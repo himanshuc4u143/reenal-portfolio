@@ -58,7 +58,7 @@ export default function AboutMe() {
                   style={{
                     paddingLeft: "0px",
                     paddingTop: "0px",
-                    border: "1px solid black",
+                    //border: "1px solid black",
                     margin: "0px",
                   }}
                 >
