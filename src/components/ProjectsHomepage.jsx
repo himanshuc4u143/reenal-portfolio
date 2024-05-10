@@ -3,16 +3,11 @@
 import React from "react";
 import "./projects.css";
 import assert from "../images/assert.jpg";
-import gita from "../images/geeta.jpg";
-//import gita from '../images/gita.png'
-//import skin from '../images/skin.png'
+
 import skin from "../images/skin.webp";
 import alistair from "../images/alistair_project.png";
-import cotton from "../images/cotton.jpg";
-import cotton1 from '../images/cotton1.png'
-import './projects.css'
-//import DefaultLayout from '../Layout/DefaultLayout';
-import { Link } from "react-router-dom";
+import cotton1 from "../images/cotton1.png";
+import "./projects.css";
 
 function ProjectsHomepage() {
   return (
@@ -24,7 +19,8 @@ function ProjectsHomepage() {
             <h1 className="black-bold">My Recent Works</h1>
           </header>
           <p className="par-content">
-          Crafting digital experiences with creativity and precision, my portfolio showcases a journey of innovation and passion.
+            Crafting digital experiences with creativity and precision, my
+            portfolio showcases a journey of innovation and passion.
           </p>
         </div>
         <div className="row">
@@ -39,18 +35,18 @@ function ProjectsHomepage() {
                   </a>
                 </h5>
                 <p className="card-text">
-                The objective is to get the probability of a child developing Type 1 diabetes within specific age intervals
+                  The objective is to get the probability of a child developing
+                  Type 1 diabetes within specific age intervals
                 </p>
-                {/* <a href="/projects/1" className="btn btn-primary">See More</a> */}
-                {/*<Link className="nav-link" aria-current="page" to="/projects/1">About</Link>*/}
-                <div className="btn-bottom" style={{padding: '20px'}}>
-                <button
-                  className="btn btn-primary button "
-                  onClick={() => (window.location.href = "/projects/1")}
-                  style={{marginTop: 'auto', marginLeft: 'auto'}}
-                >
-                  See More
-                </button>
+
+                <div className="btn-bottom" style={{ padding: "20px" }}>
+                  <button
+                    className="btn btn-primary button "
+                    onClick={() => (window.location.href = "/projects/1")}
+                    style={{ marginTop: "auto", marginLeft: "auto" }}
+                  >
+                    See More
+                  </button>
                 </div>
               </div>
             </div>
@@ -79,13 +75,13 @@ function ProjectsHomepage() {
                   Bhagavad Gita.
                 </p>
                 {/* <a href="/projects/2" className="btn btn-primary">See More</a> */}
-                <div className="btn-bottom" style={{padding: '20px'}}>
-                <button
-                  className="button btn btn-primary"
-                  onClick={() => (window.location.href = "/projects/2")}
-                >
-                  See More
-                </button>
+                <div className="btn-bottom" style={{ padding: "20px" }}>
+                  <button
+                    className="button btn btn-primary"
+                    onClick={() => (window.location.href = "/projects/2")}
+                  >
+                    See More
+                  </button>
                 </div>
               </div>
             </div>
@@ -99,10 +95,10 @@ function ProjectsHomepage() {
                   Detect melanoma skin using image (Image segmentation) using
                   Unet model
                 </p>
-                <div className="btn-bottom " style={{padding: '20px'}}>
-                <a href="/projects/3" className="btn btn-primary button">
-                  See More
-                </a>
+                <div className="btn-bottom " style={{ padding: "20px" }}>
+                  <a href="/projects/3" className="btn btn-primary button">
+                    See More
+                  </a>
                 </div>
               </div>
             </div>
@@ -117,11 +113,10 @@ function ProjectsHomepage() {
                 <p className="card-text">
                   Predict future humidity using LSTM seq-to-seq{" "}
                 </p>
-                <div className="btn-bottom" style={{padding: '20px'}}>
-                
-                <a href="/projects/4" className="btn btn-primary button">
-                  See More
-                </a>
+                <div className="btn-bottom" style={{ padding: "20px" }}>
+                  <a href="/projects/4" className="btn btn-primary button">
+                    See More
+                  </a>
                 </div>
               </div>
             </div>
@@ -134,26 +129,15 @@ function ProjectsHomepage() {
                 <p className="card-text">
                   Main object of this project to help farmer to solve their
                   problem of plant disease detection.
-                  </p>
-                  <div className="btn-bottom" style={{padding: '20px'}}>
-                
-                <a href="/projects/5" className="btn btn-primary button">
-                  See More
-                </a>
+                </p>
+                <div className="btn-bottom" style={{ padding: "20px" }}>
+                  <a href="/projects/5" className="btn btn-primary button">
+                    See More
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="col-4">
-              <div className="card" id='6'>
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">See More</a>
-                </div>
-              </div>
-            </div> */}
         </div>
       </div>
     </div>

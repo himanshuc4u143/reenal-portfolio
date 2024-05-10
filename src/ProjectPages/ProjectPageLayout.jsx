@@ -1,6 +1,5 @@
 import React from "react";
 import "./projectPage.css";
-import assert from "../images/assert.jpg";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 
 const ProjectPageLayout = ({

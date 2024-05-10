@@ -1,44 +1,6 @@
 import React from "react";
-import { useEffect, useRef } from "react";
-import { useParams } from "react-router-dom";
 import { MDBContainer, MDBProgress, MDBProgressBar } from "mdb-react-ui-kit";
-import { CircularProgress } from "@mui/material";
-import {
-  Gauge,
-  GaugeContainer,
-  GaugeValueArc,
-  GaugeReferenceArc,
-  useGaugeState,
-} from "@mui/x-charts/Gauge";
 import "./techStack.css";
-
-function GaugePointer({ skillName }) {
-  const { valueAngle, outerRadius, cx, cy } = useGaugeState();
-
-  if (valueAngle === null) {
-    // No value to display
-    return null;
-  }
-
-  const target = {
-    x: cx + outerRadius * Math.sin(valueAngle),
-    y: cy - outerRadius * Math.cos(valueAngle),
-  };
-  return (
-    <g>
-      <circle cx={cx} cy={cy} r={5} fill="red" />
-      <path
-        d={`M ${cx} ${cy} L ${target.x} ${target.y}`}
-        stroke="red"
-        strokeWidth={3}
-      />
-      <text x={cx} y={cy + outerRadius + 20} textAnchor="middle" fill="black">
-        {skillName}
-      </text>
-      <text>{skillName}</text>
-    </g>
-  );
-}
 
 function CustomCircularProgress({ value, skillName }) {
   const size = 150;
@@ -104,19 +66,6 @@ const skills = [
   // "TDD",
 ];
 function TechStack() {
-
-  // const { id } = useParams();
-  // const targetRef = useRef(null);
-
-  // useEffect(() => {
-  //   const scrollToTarget = () => {
-  //     if (targetRef.current) {
-  //       targetRef.current.scrollIntoView({ behavior: 'smooth' });
-  //     }
-  //   };
-
-  //   scrollToTarget();
-  // }, [id]);
   return (
     <MDBContainer fluid>
       <div className="">
@@ -261,38 +210,13 @@ function TechStack() {
                 </MDBProgressBar>
               </MDBProgress>
             </div>
-            {/* <div className="linearDiv hover-shadow rounded-2">
-              <h6>Open CV</h6>
-              <MDBProgress className='MDBProgress'    >
-                <MDBProgressBar
-                  striped
-                  animated
-                  width="90" // Increased width to occupy the whole column
-                  valuemin={0}
-                  valuemax={100}
-                >
-                  90%
-                </MDBProgressBar>
-              </MDBProgress>
-            </div>
-            <div className="linearDiv hover-shadow rounded-2">
-              <h6>PyTest</h6>
-              <MDBProgress className='MDBProgress'    >
-                <MDBProgressBar
-                  striped
-                  animated
-                  width="60" // Increased width to occupy the whole column
-                  valuemin={0}
-                  valuemax={100}
-                >
-                  60%
-                </MDBProgressBar>
-              </MDBProgress>
-            </div> */}
           </div>
 
           {/* Circular Progress Bars */}
-          <div className="col-2" style={{ padding: "0.5vw", paddingLeft: '3.5vw' }}>
+          <div
+            className="col-2"
+            style={{ padding: "0.5vw", paddingLeft: "3.5vw" }}
+          >
             <div className="circleDiv hover-shadow rounded-4">
               <CustomCircularProgress
                 value={80}
@@ -312,19 +236,10 @@ function TechStack() {
               <h6>ML Algorithms</h6>
             </div>
           </div>
-          
-          
-          <div className="col-2" 
-          style={{ padding: "10px"}}
-          >
+
+          <div className="col-2" style={{ padding: "10px" }}>
             <div className="circleDiv hover-shadow rounded-4">
-              <CustomCircularProgress
-                value={80}
-                skillName="Docker"
-                // width={150}
-                // height={150}
-                // style={{ border: '2px solid black'}}
-              />
+              <CustomCircularProgress value={80} skillName="Docker" />
               <h6>Docker</h6>
             </div>
             <div className="circleDiv hover-shadow rounded-4">
@@ -336,59 +251,6 @@ function TechStack() {
               <h6>Flask</h6>
             </div>
           </div>
-
-          {/* Gauges */}
-          {/* <div className="col-2" style={{ padding: "10px" }}>
-            <div className="gaugeDiv hover-shadow rounded-3">
-              <GaugeContainer
-                style={{ padding: "0px" }}
-                className="animated"
-                width={150}
-                height={150}
-                startAngle={-110}
-                endAngle={110}
-                value={70}
-              >
-                <GaugeReferenceArc />
-                <GaugeValueArc />
-                <GaugePointer skillName="Keras" />
-              </GaugeContainer>
-              <h6>Keras</h6>
-            </div>
-            <div className="gaugeDiv hover-shadow rounded-3">
-              <GaugeContainer
-                className="animated"
-                width={150}
-                height={150}
-                startAngle={-110}
-                endAngle={110}
-                value={70}
-              >
-                <GaugeReferenceArc />
-                <GaugeValueArc />
-                <GaugePointer skillName="Flask" />
-              </GaugeContainer>
-              <h6>Flask</h6>
-            </div>
-            <div
-              className="gaugeDiv hover-shadow rounded-3"
-              style={{ paddingBottom: "30px" }}
-            >
-              <GaugeContainer
-                className="animated"
-                width={150}
-                height={150}
-                startAngle={-110}
-                endAngle={110}
-                value={75}
-              >
-                <GaugeReferenceArc />
-                <GaugeValueArc />
-                <GaugePointer skillName="Docker" />
-              </GaugeContainer>
-              <h6>Docker</h6>
-            </div>
-          </div> */}
         </div>
       </div>
     </MDBContainer>

@@ -1,77 +1,62 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import '@fortawesome/fontawesome-free/css/all.css';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route
-} from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import ErrorPage from './ErrorPage';
-//  import Projects from './components/Projects';
-import ProjectPage from './ProjectPages/ProjectPage';
-import Books from './components/Books';
+import ErrorPage from "./ErrorPage";
+import ProjectPage from "./ProjectPages/ProjectPage";
+import Books from "./components/Books";
 // import HobbiesPage from './components/HobbiesPage';
-import BlogsPage from './components/BlogsPage';
-import Certificates from './components/Certificates';
+import BlogsPage from "./components/BlogsPage";
+import Certificates from "./components/Certificates";
 // import EnquiryForm from './components/EnquiryForm';
-import ContactUs from './ContactUs';
-// import Projects1 from './components/Projects1';
+import ContactUs from "./ContactUs";
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App/>,
-    errorElement: <ErrorPage/>,
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
   },
   {
-    path: '/home',
-    element: <App/>,
-    errorElement: <ErrorPage/>,
+    path: "/home",
+    element: <App />,
+    errorElement: <ErrorPage />,
   },
-  // {
-  //   path: '/projects',
-  //   element: <Projects1/>,
-  //   errorElement: <ErrorPage/>,
-  // },
+
   {
-    path: '/projects/:id',
-    element: <ProjectPage/>,
-    errorElement: <ErrorPage/>
+    path: "/projects/:id",
+    element: <ProjectPage />,
+    errorElement: <ErrorPage />,
   },
   {
-    path: '/books',
-    element: <Books/>,
-    errorElement: <ErrorPage/>
+    path: "/books",
+    element: <Books />,
+    errorElement: <ErrorPage />,
   },
-  // {
-  //   path: '/hobbies',
-  //   element: <HobbiesPage/>,
-  //   errorElement: <ErrorPage/>
-  // },
+
   {
-    path: '/blogs',
-    element: <BlogsPage/>,
-    errorElement: <ErrorPage/>
+    path: "/blogs",
+    element: <BlogsPage />,
+    errorElement: <ErrorPage />,
   },
   {
-    path: '/certificates',
-    element: <Certificates/>,
-    errorElement: <ErrorPage/>
+    path: "/certificates",
+    element: <Certificates />,
+    errorElement: <ErrorPage />,
   },
   {
-    path: '/contactUs',
-    element: <ContactUs/>,
-    errorElement: <ErrorPage/>
-  }
+    path: "/contactUs",
+    element: <ContactUs />,
+    errorElement: <ErrorPage />,
+  },
 ]);
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />

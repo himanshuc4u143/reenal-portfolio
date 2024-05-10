@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./videoThumbnailComponent.css";
 import "./projects.css";
 import vidThumbnail1 from "../images/vidThumbnails/vidthumbnail1.png";
@@ -6,53 +6,10 @@ import vidThumbnail2 from "../images/vidThumbnails/vidThumbnail2.jpeg";
 import vidThumbnail3 from "../images/vidThumbnails/Software_Engineer_to_Data_Scientist.png";
 
 const VideoThumbnailComponent = () => {
-  // const videoRef = useRef(null);
-
-  // const handleMouseEnter = () => {
-  //   videoRef.current.play();
-  // };
-
-  // const handleMouseLeave = () => {
-  //   videoRef.current.pause();
-  // };
-
-  // return (
-  // <div>
-  //   <div
-  //     className="video-container"
-  //     onMouseEnter={handleMouseEnter}
-  //     onMouseLeave={handleMouseLeave}
-  //   >
-  //     <video ref={videoRef} className="video" loop muted>
-  //       <source src={vid} type="video/mp4" />
-  //     </video>
-  //     <div className="video-overlay">
-  //       <i className="play-icon fas fa-play-circle"></i>
-  //     </div>
-
-  //   </div>
-  //   <h4 style={{textAlign: 'start', paddingTop: '30px', paddingLeft: '20px'}}>Video Title</h4>
-  //   <p style={{textAlign: 'start', color: 'grey', paddingLeft: '20px'}}>Video Description</p>
-  // </div>
-  // );
-
   return (
-    <div
-      className="projects-container"
-      style={{ paddingBottom: "80px",  }}
-    >
-      <div className="empty-div" style={{  }}>
-        {/*<h2 className="gradient-text header-container">Title</h2>*/}
-        {/*<header className="header-container">
-          <h3 className="black-bold">Some of My Recent Works</h3>
-        </header>
-        <p className="par-content">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
-        </p>
-        */}
-      </div>
-      <div className="row" style={{  }}>
+    <div className="projects-container" style={{ paddingBottom: "80px" }}>
+      <div className="empty-div" style={{}}></div>
+      <div className="row" style={{}}>
         <div
           className="col"
           style={{
@@ -62,14 +19,10 @@ const VideoThumbnailComponent = () => {
             padding: "80px",
           }}
         >
-          <div className="empty-div" >
+          <div className="empty-div">
             <h2 className="gradient-text header-container">Webinar</h2>
           </div>
-          <div
-            className="video-container"
-            // onMouseEnter={handleMouseEnter}
-            // onMouseLeave={handleMouseLeave}
-          >
+          <div className="video-container">
             <img
               src={vidThumbnail1}
               alt="vidThumbnail1"
@@ -98,41 +51,24 @@ const VideoThumbnailComponent = () => {
             Diabetes Prediction Using Survival Analysis | DataHour by Reenal
             Boddul
           </h4>
-          {/* <p style={{ textAlign: "start", color: "grey", paddingLeft: "20px" }}>
-            Video Description
-          </p> */}
         </div>
       </div>
       <div className="row">
-        {/* <div className="empty-div" style={{border: '2px solid red'}}>
-          <h2 className="gradient-text header-container" style={{border: '1px solid black'}}>Podcast</h2>
-        </div> */}
-
         <div className="empty-div1">
-        <h1 className="gradient-text header-container text-center" s>Podcast</h1>
+          <h1 className="gradient-text header-container text-center" s>
+            Podcast
+          </h1>
         </div>
-        <div className="col" >
+        <div className="col">
           <div
             className="col"
             style={{
               alignItems: "center",
               display: "flex",
               flexDirection: "column",
-              // border: '2px solid blue',
-              // padding: "40px",
             }}
           >
-            {/* <div className="empty-div">
-                <h2 className="gradient-text header-container">Podcast</h2>
-            </div> */}
-            <div
-              className="video-container"
-              // onMouseEnter={handleMouseEnter}
-              // onMouseLeave={handleMouseLeave}
-            >
-              {/* <video ref={videoRef} className="video" loop muted>
-              <source src={vid} type="video/mp4" />
-              </video> */}
+            <div className="video-container">
               <img
                 src={vidThumbnail2}
                 alt="Podcast"
@@ -147,11 +83,8 @@ const VideoThumbnailComponent = () => {
                   <i className="play-icon fas fa-play-circle"></i>
                 </a>
               </div>
-              {/* <p style={{ textAlign: "start", color: "grey", paddingLeft: "20px" }}>
-              Video Description
-              </p> */}
             </div>
-            
+
             <h4
               style={{
                 textAlign: "start",
@@ -170,18 +103,9 @@ const VideoThumbnailComponent = () => {
               alignItems: "center",
               display: "flex",
               flexDirection: "column",
-              // paddingBottom: "80px",
             }}
           >
-            <div
-              className="video-container"
-              // onMouseEnter={handleMouseEnter}
-              // onMouseLeave={handleMouseLeave}
-            >
-              {/* <video ref={videoRef} className="video" loop muted>
-              <source src={vid} type="video/mp4" />
-              </video> */}
-
+            <div className="video-container">
               <img
                 src={vidThumbnail3}
                 alt="Podcast"
@@ -196,9 +120,6 @@ const VideoThumbnailComponent = () => {
                   <i className="play-icon fas fa-play-circle"></i>
                 </a>
               </div>
-              {/* <p style={{ textAlign: "start", color: "grey", paddingLeft: "20px" }}>
-              Video Description
-              </p> */}
             </div>
             <h4
               style={{

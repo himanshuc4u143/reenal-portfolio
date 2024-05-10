@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import girlImg from "../images/beautiful-european-woman-portrait-worth-office-background-smiling-beauty-fashion-style-curly-hair-white-strands-view-134460672.webp";
+import React from "react";
 import "./EnquiryForm.css";
 
 function EnquiryForm() {
@@ -39,13 +38,12 @@ function EnquiryForm() {
   `;
 
   const redirectToWhatsapp = () => {
-    
     const whatsappNumber = "46738719117";
 
     const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
     window.open(whatsappUrl, "_blank");
-  }
+  };
 
   return (
     <section className="w-100 bg-transparent background-div">
@@ -55,7 +53,10 @@ function EnquiryForm() {
         style={{ padding: "100px" }}
       >
         <div>
-          <div className="empty-div" style={{ paddingBottom: "0px", paddingTop: '0px', margin: '0px' }}>
+          <div
+            className="empty-div"
+            style={{ paddingBottom: "0px", paddingTop: "0px", margin: "0px" }}
+          >
             <h1
               className="gradient-text header-container"
               style={{ fontSize: "80px" }}
@@ -66,24 +67,17 @@ function EnquiryForm() {
           <div
             className="row justify-content-center"
             style={{
-              //backgroundColor: "whitesmoke",
               backgroundColor: "#ffefc3",
               padding: "0px",
               borderRadius: "10px",
               margin: "0px",
-              boxShadow: '4px 4px 14px 4px rgba(4, 5, 4, 0.66)'
+              boxShadow: "4px 4px 14px 4px rgba(4, 5, 4, 0.66)",
             }}
           >
-            <div
-              className="col-md-6 img-div"
-              // style={{ border: "2px solid black" }}
-            >
+            <div className="col-md-6 img-div">
               <div
                 className="imgCol bg-transparent"
                 style={{
-                  // height: "600px", width: "500px",
-                  // border: '2px solid red',
-                  //backgroundColor: "whitesmoke",
                   backgroundColor: "#ffefc3",
                 }}
               >
@@ -102,7 +96,7 @@ function EnquiryForm() {
             <div
               className="col-md-6 mb-5"
               style={{
-                backgroundColor: '#ffefc3',
+                backgroundColor: "#ffefc3",
                 borderTopRightRadius: "10px",
                 borderBottomRightRadius: "10px",
               }}
@@ -110,29 +104,29 @@ function EnquiryForm() {
               <div
                 className="formCol"
                 style={{
-                  // background: 'violet',
                   paddingTop: "10px",
                   // borderRadius: '11% 89% 95% 5% / 13% 100% 0% 87%'
                 }}
               >
-                {/* <h6 className="gradient-text bold">Lets Say Hii!!!</h6>
-            <h2>Connect Me.</h2> */}
-                <div className="row g-0" >
+                <div className="row g-0">
                   <div className="col-1">
                     <div
-                      style={{ padding: "5px", cursor: 'pointer' }}
+                      style={{ padding: "5px", cursor: "pointer" }}
                       dangerouslySetInnerHTML={{ __html: whatsappSVGString }}
                       onClick={redirectToWhatsapp}
-                    >
-                    </div>
+                    ></div>
                   </div>
-                  <div className="col-4" style={{ padding: "10px", paddingLeft: '20px' }}>
+                  <div
+                    className="col-4"
+                    style={{ padding: "10px", paddingLeft: "20px" }}
+                  >
                     <h5>(+46)-0738719117</h5>
                   </div>
                 </div>
-                <div className="row g-0" >
-                  <div className="col-1" >
-                    <div style={{ display: 'cover'}}
+                <div className="row g-0">
+                  <div className="col-1">
+                    <div
+                      style={{ display: "cover" }}
                       dangerouslySetInnerHTML={{ __html: mailSVGString }}
                     ></div>
                   </div>
@@ -148,7 +142,7 @@ function EnquiryForm() {
                     </h5>
                   </div>
                 </div>
-                <div className="mb-3" style={{paddingTop: '10px'}}>
+                <div className="mb-3" style={{ paddingTop: "10px" }}>
                   <label htmlFor="nameInput" className="form-label">
                     Name
                   </label>
@@ -201,7 +195,10 @@ function EnquiryForm() {
                     className=""
                     // style={{paddingLeft: '50px'}}
                   >
-                    <button className="btn btn-primary btn-lg button" type="submit">
+                    <button
+                      className="btn btn-primary btn-lg button"
+                      type="submit"
+                    >
                       Submit
                     </button>
                   </div>
@@ -216,4 +213,3 @@ function EnquiryForm() {
 }
 
 export default EnquiryForm;
-

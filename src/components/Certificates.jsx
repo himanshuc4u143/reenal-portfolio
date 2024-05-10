@@ -1,8 +1,6 @@
 import React from "react";
 import DefaultLayout from "../Layout/DefaultLayout";
 import "./certificates.css";
-import sampleImg1 from "../images/reenal_bgImg.png";
-import { useState } from "react";
 import cdac from '../images/Certificates/cdac.png'
 import big_data from '../images/Certificates/big_data.jpg'
 import deep_learning from '../images/Certificates/deep_learning.jpg'
